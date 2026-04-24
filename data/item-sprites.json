@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "source": "pokeapi-sprites",
+    "generatedAt": "2026-04-18T09:01:27.774Z",
+    "baseUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/"
+  },
+  "items": {
+    "pokeBall": "items/poke-ball.png",
+    "greatBall": "items/great-ball.png",
+    "ultraBall": "items/ultra-ball.png",
+    "masterBall": "items/master-ball.png",
+    "potion": "items/potion.png",
+    "superPotion": "items/super-potion.png",
+    "hyperPotion": "items/hyper-potion.png",
+    "maxPotion": "items/max-potion.png",
+    "revive": "items/revive.png",
+    "maxRevive": "items/max-revive.png",
+    "rareCandy": "items/rare-candy.png",
+    "luckyEgg": "items/lucky-egg.png",
+    "moonStone": "items/moon-stone.png",
+    "thunderStone": "items/thunder-stone.png",
+    "waterStone": "items/water-stone.png",
+    "fireStone": "items/fire-stone.png",
+    "leafStone": "items/leaf-stone.png"
+  }
+}

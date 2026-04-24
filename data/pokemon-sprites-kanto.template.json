@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "scope": "kanto-151",
+    "source": "pokeapi-sprites",
+    "generatedAt": "",
+    "baseUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/"
+  },
+  "pokemon": [
+    {
+      "id": 1,
+      "slug": "bulbasaur",
+      "nameFr": "Bulbizarre",
+      "nameEn": "bulbasaur",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/1.png",
+        "icon": "pokemon/versions/generation-vii/icons/1.png",
+        "artwork": "pokemon/other/official-artwork/1.png",
+        "showdown": "pokemon/other/showdown/1.gif"
+      }
+    }
+  ]
+}

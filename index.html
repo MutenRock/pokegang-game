@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="app-version" content="2.2.0">
+  <title>PokéGang — Gotta rule em all</title>
+  <link rel="icon" type="image/png" href="https://lab.sterenna.fr/PG/pokegang_logo/pokegang_logo_little.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/base.css?v=1">
+  <link rel="stylesheet" href="./css/intro.css?v=1">
+  <link rel="stylesheet" href="./css/game-ui.css?v=1">
+</head>
+<body>
+
+  <!-- ── Dopamine Popups (outside #app so they overlay everything) ── -->
+  <div id="shinyPopup">
+    <div class="popup-icon">✨</div>
+    <img class="popup-sprite" id="shinyPopupSprite" src="" alt="">
+    <div class="popup-label" id="shinyPopupLabel">SHINY !</div>
+  </div>
+  <div id="rarePopup">
+    <img class="rare-sprite" id="rarePopupSprite" src="" alt="">
+    <div>
+      <div class="rare-label" id="rarePopupLabel">Pokémon rare aperçu !</div>
+      <div class="rare-hint" id="rarePopupHint"></div>
+    </div>
+  </div>
+
+  <!-- Zone unlock popup -->
+  <div id="zoneUnlockPopup">
+    <div class="unlock-box">
+      <div class="unlock-title">🗺 ZONE DÉBLOQUÉE !</div>
+      <div class="unlock-zone" id="zoneUnlockName">—</div>
+      <div class="unlock-rep"  id="zoneUnlockRep"></div>
+      <div class="unlock-btns">
+        <button class="unlock-btn-go"    id="zoneUnlockGo">→ Aller à la zone</button>
+        <button class="unlock-btn-later" id="zoneUnlockClose">Plus tard</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="app">
+
+    <!-- ═══ Top Bar ═══ -->
+    <header id="topBar">
+      <button id="btnBackToIntro" title="Retour à l'accueil" style="font-family:var(--font-pixel);font-size:14px;padding:4px 8px;background:transparent;border:1px solid rgba(255,255,255,.2);border-radius:4px;color:var(--text-dim);cursor:pointer;transition:all .2s;line-height:1">▲</button>
+      <div id="gangNameDisplay">Team ???</div>
+      <div id="moneyDisplay"><span>₽</span> 0</div>
+      <div id="repDisplay">⭐ 0</div>
+      <div id="pokemonCountDisplay" title="Pokémon possédés" style="cursor:default;display:flex;align-items:center;gap:4px"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" style="width:20px;height:20px;image-rendering:pixelated" onerror="this.style.display='none'"> 0</div>
+      <button id="btnCodex" title="Codex — Prix & Spawns" style="padding:2px 5px;background:transparent;border:1px solid rgba(255,255,255,.2);border-radius:4px;cursor:pointer;transition:all .2s;display:flex;align-items:center"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/town-map.png" style="width:22px;height:22px;image-rendering:pixelated" onerror="this.style.display='none'"></button>
+      <span id="supaIndicator" title="Compte cloud"></span>
+      <button id="btnSettings" aria-label="Settings">⚙</button>
+    </header>
+
+    <!-- ── Session delta + Objective ── -->
+    <div id="sessionBar" style="display:none;align-items:center;gap:8px;padding:3px 16px;background:rgba(0,0,0,.5);border-bottom:1px solid var(--border);font-size:10px;min-height:22px;font-family:var(--font-pixel)"></div>
+    <div id="objectiveBar" style="display:none;align-items:center;gap:4px;padding:4px 16px;background:rgba(255,204,90,.04);border-bottom:1px solid rgba(255,204,90,.15);font-size:10px;min-height:26px"></div>
+
+    <!-- ═══ Tab Navigation ═══ -->
+    <nav id="tabNav">
+      <button class="tab-btn active" data-tab="tabZones">Zones <span class="tab-info-btn" data-info-tab="tabZones">ℹ</span></button>
+      <button class="tab-btn" data-tab="tabPC">Pokémon <span class="tab-info-btn" data-info-tab="tabPC">ℹ</span></button>
+      <button class="tab-btn" data-tab="tabAgents">Agents <span class="tab-info-btn" data-info-tab="tabAgents">ℹ</span></button>
+      <button class="tab-btn" data-tab="tabMarket">Marché <span class="tab-info-btn" data-info-tab="tabMarket">ℹ</span></button>
+      <button class="tab-btn" data-tab="tabGang">Gang <span class="tab-info-btn" data-info-tab="tabGang">ℹ</span></button>
+      <button class="tab-btn" data-tab="tabPokedex">Pokédex <span class="tab-info-btn" data-info-tab="tabPokedex">ℹ</span></button>
+      <button class="tab-btn" data-tab="tabCosmetics">🎨</button>
+      <button class="tab-btn" data-tab="tabBattleLog">⚔ Log</button>
+      <button class="tab-btn" data-tab="tabMissions" id="tabBtnMissions" style="display:none">Missions</button>
+      <button class="tab-btn" data-tab="tabCompte" id="tabBtnCompte" style="margin-left:auto">☁ Compte</button>
+      <button class="tab-btn" id="btnSaveSlots" style="border-color:var(--gold-dim);color:var(--gold-dim)">Saves</button>
+    </nav>
+
+    <!-- ═══ Tab Content ═══ -->
+    <div id="hintBar" style="display:none;padding:6px 12px;font-family:var(--font-pixel);font-size:9px;color:var(--gold);background:rgba(0,0,0,0.6);border-bottom:1px solid var(--gold-dim);letter-spacing:.05em"></div>
+    <main id="tabContent">
+
+      <!-- ── Gang ── -->
+      <section id="tabGang" class="tab-pane"></section>
+
+      <!-- ── Cosmétiques (débloquable 50k₽) ── -->
+      <section id="tabCosmetics" class="tab-pane"></section>
+
+      <!-- ── Battle Log ── -->
+      <section id="tabBattleLog" class="tab-pane">
+        <div style="display:flex;flex-direction:column;height:100%;gap:0">
+          <div id="battleArena" style="min-height:140px;border-bottom:1px solid var(--border);padding:4px;"></div>
+          <div style="font-family:var(--font-pixel);font-size:8px;color:var(--gold);padding:6px 12px 2px;border-bottom:1px solid var(--border)">⚔ HISTORIQUE DES COMBATS</div>
+          <div id="battleHistory" style="flex:1;overflow-y:auto;padding:6px 8px;display:flex;flex-direction:column;gap:3px;"></div>
+        </div>
+      </section>
+
+      <!-- ── Agents ── -->
+      <section id="tabAgents" class="tab-pane">
+        <div style="padding:6px 12px;border-bottom:1px solid var(--border);display:flex;gap:8px;justify-content:flex-end">
+          <button id="btnUnequipAll" style="font-size:9px;padding:4px 10px;background:var(--bg);border:1px solid var(--border-light);border-radius:var(--radius-sm);color:var(--text-dim);cursor:pointer">Tout déséquiper</button>
+        </div>
+        <div class="agents-grid" id="agentsGrid"></div>
+      </section>
+
+      <!-- ── Zones ── -->
+      <section id="tabZones" class="tab-pane active">
+        <!-- Filter bar -->
+        <div id="zoneFilterBar">
+          <div id="zoneFilterTabs">
+            <button class="zone-ftab active" data-filter="all">Tout</button>
+            <button class="zone-ftab" data-filter="fav">★ Favoris</button>
+            <button class="zone-ftab" data-filter="route">🗺 Routes</button>
+            <button class="zone-ftab" data-filter="city">🏙 Villes</button>
+            <button class="zone-ftab" data-filter="special">⭐ Spéciaux</button>
+          </div>
+          <div style="display:flex;gap:6px;margin-left:auto">
+            <button id="btnCollectAllZones" class="zones-close-all-btn" style="background:var(--gold-dark,#7a6000);border-color:var(--gold-dim);color:var(--gold);display:none">₽ Tout récolter</button>
+            <button id="btnCloseAllZones" class="zones-close-all-btn" style="display:none">✕ Fermer tout</button>
+          </div>
+        </div>
+
+        <!-- Zone selector (fog-map) -->
+        <div id="zoneSelector"></div>
+
+        <!-- Gang Base + 2×2 zone windows side by side -->
+        <div id="zonesTopArea">
+          <div id="gangBaseContainer"></div>
+          <div id="zoneWindows"></div>
+        </div>
+      </section>
+
+      <!-- ── Bag + Market (merged) ── -->
+      <section id="tabBag" class="tab-pane" style="display:none"></section>
+      <section id="tabMarket" class="tab-pane">
+        <div class="market-layout">
+          <div id="questPanel" class="market-panel quest-panel">
+            <h3>QUÊTES</h3>
+            <div class="quest-list"></div>
+          </div>
+          <div id="shopPanel" class="market-panel">
+            <h3>BOUTIQUE</h3>
+            <div class="shop-list"></div>
+          </div>
+          <div id="barterPanel" class="market-panel">
+            <h3>TROC</h3>
+            <div class="barter-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── PC ── -->
+      <section id="tabPC" class="tab-pane">
+        <div class="pc-layout">
+          <div class="pc-main">
+            <div id="filterBar">
+              <input type="text" id="pcSearch" placeholder="Rechercher...">
+              <select id="pcSort">
+                <option value="recent">Recent</option>
+                <option value="potential">Potentiel</option>
+                <option value="cp">PC</option>
+                <option value="level">Niveau</option>
+                <option value="species">Espece</option>
+                <option value="id">No. Pokedex</option>
+                <option value="name">Nom A-Z</option>
+                <option value="price">Prix ₽</option>
+              </select>
+              <select id="pcFilter">
+                <option value="all">Tous</option>
+                <option value="fav">[FAV] Favoris</option>
+                <option value="team">[EQ] En equipe</option>
+                <option value="shiny">[S] Shiny</option>
+                <option value="pot5">***** (5)</option>
+                <option value="pot4">**** (4)</option>
+                <option value="pot3">*** (3)</option>
+                <option value="pot2">** (2)</option>
+                <option value="pot1">* (1)</option>
+                <option value="pension">[PS] Pension</option>
+                <option value="training">[TR] Formation</option>
+              </select>
+            </div>
+            <div id="pokemonGrid"></div>
+            <div id="pcPagination" class="pc-pagination"></div>
+          </div>
+          <aside id="pokemonDetail" class="hidden"></aside>
+        </div>
+      </section>
+
+      <!-- ── Training Room ── -->
+      <section id="tabTraining" class="tab-pane"></section>
+
+      <!-- ── Science Lab ── -->
+      <section id="tabLab" class="tab-pane"></section>
+
+      <!-- ── Missions ── -->
+      <section id="tabMissions" class="tab-pane"></section>
+
+      <!-- ── Compte (Supabase auth + cloud save + leaderboard) ── -->
+      <section id="tabCompte" class="tab-pane"></section>
+
+      <!-- ── Pokédex ── -->
+      <section id="tabPokedex" class="tab-pane">
+        <div class="dex-layout">
+          <div class="dex-left">
+            <div id="dexSearch" style="margin-bottom:8px"><input id="dexSearchInput" type="text" placeholder="Rechercher..." style="width:100%;background:var(--bg-card);color:var(--text);border:1px solid var(--border);border-radius:var(--radius-sm);padding:4px 8px;font-family:var(--font-pixel);font-size:9px"></div>
+            <div id="pokedexGrid"></div>
+          </div>
+          <aside id="dexDetail" class="dex-detail hidden"></aside>
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <!-- ═══ Notifications ═══ -->
+  <div id="notifications"></div>
+
+  <!-- ═══ Intro Overlay ═══ -->
+  <div id="introOverlay">
+    <button id="introSettingsBtn" title="Paramètres">⚙</button>
+    <div class="intro-panels">
+
+      <!-- LEFT: animated showcase -->
+      <div class="intro-showcase intro-showcase-briefing">
+        <div class="intro-logo-fade" aria-hidden="true">
+          <img src="https://lab.sterenna.fr/PG/pokegang_logo/pokegang_logo_full_B.png" alt="">
+        </div>
+
+        <div class="intro-showcase-copy">
+          <div class="intro-brief-label"><img class="intro-brief-icon" src="https://lab.sterenna.fr/PG/pokegang_logo/pokegang_logo_little.png" alt="">Briefing PokéGang</div>
+          <div class="intro-showcase-title">Prends le contrôle de Kanto.</div>
+          <div class="intro-showcase-text">
+            Recrute des agents, capture des Pokémon rares et étends ton influence dans l'ombre.
+          </div>
+        </div>
+
+        <div class="intro-scene-wrap intro-scene-wrap-briefing">
+          <div id="introSceneContainer" class="intro-scene">
+            <!-- filled by JS -->
+          </div>
+        </div>
+
+        <div class="intro-dots" id="introSceneDots">
+          <div class="intro-dot active"></div>
+          <div class="intro-dot"></div>
+          <div class="intro-dot"></div>
+        </div>
+
+        <div class="intro-pillars">
+          <div class="intro-pillar">
+            <span class="intro-pillar-kicker">Capture</span>
+            <span class="intro-pillar-text">Récupère les meilleures cibles.</span>
+          </div>
+          <div class="intro-pillar">
+            <span class="intro-pillar-kicker">Dirige</span>
+            <span class="intro-pillar-text">Déploie ton réseau d'agents.</span>
+          </div>
+          <div class="intro-pillar">
+            <span class="intro-pillar-kicker">Gagne de la réputation</span>
+            <span class="intro-pillar-text">Étends ton influence dans toute la région.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: save selection -->
+      <div class="intro-form-panel intro-form-panel-saves">
+        <div class="intro-section-label intro-section-label-with-icon">
+          <img class="intro-section-logo" src="https://lab.sterenna.fr/PG/pokegang_logo/pokegang_logo_little.png" alt="PokéGang">
+          <span>SAUVEGARDES</span>
+        </div>
+        <div class="intro-panel-note">Choisis une sauvegarde existante ou clique sur un slot vide pour créer une nouvelle partie.</div>
+        <div class="intro-slots" id="introSlots">
+          <!-- filled by JS -->
+        </div>
+        <div class="intro-slot-tools">
+          <button id="btnHubImportSave" class="intro-slot-tool intro-slot-tool-import">📥 Importer une save</button>
+          <button id="btnHubRepairSlot" class="intro-slot-tool intro-slot-tool-repair">🔧 Réparer une save</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div id="newGameModal" class="new-game-modal" aria-hidden="true">
+    <div class="new-game-modal__backdrop" data-close-new-game></div>
+    <div class="new-game-modal__box" role="dialog" aria-modal="true" aria-labelledby="newGameTitle">
+      <div class="new-game-modal__header">
+        <div>
+          <div class="new-game-modal__eyebrow">Création de partie</div>
+          <div class="new-game-modal__title" id="newGameTitle">Nouvelle opération</div>
+        </div>
+        <button class="new-game-modal__close" id="btnCloseNewGameModal" title="Fermer">✕</button>
+      </div>
+
+      <div class="intro-field">
+        <label>Nom du Boss</label>
+        <input type="text" id="inputBossName" maxlength="16" placeholder="Boss">
+      </div>
+
+      <div class="intro-field">
+        <label>Nom du Gang</label>
+        <input type="text" id="inputGangName" maxlength="20" placeholder="Team Fury">
+      </div>
+
+      <div class="intro-field">
+        <label>Avatar</label>
+      </div>
+      <div class="sprite-picker" id="spritePicker"></div>
+
+      <div class="new-game-modal__footer">
+        <div class="new-game-modal__slot" id="newGameSelectedSlotLabel">Slot sélectionné : 1</div>
+        <button class="btn-start" id="btnStartGame">Créer la partie</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ Settings Modal ═══ -->
+  <div id="settingsModal">
+    <div class="settings-box">
+      <div class="settings-header">
+        <h2>⚙ Paramètres</h2>
+        <button class="btn-close" id="btnCloseSettings" title="Fermer">&times;</button>
+      </div>
+      <div class="settings-content" id="settingsContent">
+        <!-- rendered by renderSettingsPanel() -->
+      </div>
+      <div class="settings-footer">
+        <div style="font-family:var(--font-pixel);font-size:7px;color:var(--text-dim);opacity:.6;letter-spacing:1px">
+          PokéGang <span id="settingsVersion"></span>
+        </div>
+        <button class="btn-save-settings" id="btnSaveSettings">✓ Valider</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Battle Log moved to tabBattleLog tab (see tab section above) -->
+  <div id="battleLog" style="display:none" aria-hidden="true"></div>
+
+  <!-- Info Modal -->
+  <div id="infoModal">
+    <div class="info-box">
+      <div class="info-title" id="infoModalTitle"></div>
+      <div class="info-section" id="infoModalBody"></div>
+      <button class="info-close" id="infoModalClose">✕ Fermer</button>
+    </div>
+  </div>
+
+  <!-- Supabase JS SDK (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <!-- Config Supabase (valeurs vides par défaut — remplacer localement pour Supabase) -->
+  <script src="./config.js?v=1"></script>
+  <!-- Sprite data loaders (variables internes isolées dans IIFE, no global pollution) -->
+  <script src="./data/loaders.js?v=3"></script>
+  <script src="./data/species-data.js?v=1"></script>
+  <script src="./data/zones-data.js?v=1"></script>
+  <script src="./data/evolutions-data.js?v=1"></script>
+  <script src="./data/titles-data.js?v=1"></script>
+  <script type="module" src="./app.js?v=22"></script>
+</body>
+</html>

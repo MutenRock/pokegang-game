@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "source": "pokemon-showdown-trainers",
+    "generatedAt": "",
+    "baseUrl": "https://play.pokemonshowdown.com/sprites/trainers/"
+  },
+  "trainers": {
+    "gymBosses": {
+      "brock": "brock.png"
+    },
+    "eliteBosses": {
+      "lorelei": "lorelei-gen1.png"
+    },
+    "specialBosses": {
+      "giovanni": "giovanni.png"
+    },
+    "common": {
+      "youngsterGen1": "youngster-gen1.png"
+    },
+    "factions": {
+      "teamRocket": [
+        "rocketgrunt.png",
+        "rocketgruntf.png"
+      ]
+    }
+  }
+}

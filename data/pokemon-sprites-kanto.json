@@ -1,0 +1,3030 @@
+{
+  "meta": {
+    "scope": "kanto-151",
+    "source": "pokeapi-sprites",
+    "generatedAt": "2026-04-18T09:01:27.700Z",
+    "baseUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/"
+  },
+  "pokemon": [
+    {
+      "id": 1,
+      "slug": "bulbasaur",
+      "nameFr": "Bulbizarre",
+      "nameEn": "bulbasaur",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/1.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/1.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/1.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/1.png",
+        "icon": "pokemon/versions/generation-vii/icons/1.png",
+        "artwork": "pokemon/other/official-artwork/1.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/1.png",
+        "showdown": "pokemon/other/showdown/1.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/1.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/1.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/1.png"
+      }
+    },
+    {
+      "id": 2,
+      "slug": "ivysaur",
+      "nameFr": "Herbizarre",
+      "nameEn": "ivysaur",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/2.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/2.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/2.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/2.png",
+        "icon": "pokemon/versions/generation-vii/icons/2.png",
+        "artwork": "pokemon/other/official-artwork/2.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/2.png",
+        "showdown": "pokemon/other/showdown/2.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/2.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/2.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/2.png"
+      }
+    },
+    {
+      "id": 3,
+      "slug": "venusaur",
+      "nameFr": "Florizarre",
+      "nameEn": "venusaur",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/3.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/3.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/3.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/3.png",
+        "icon": "pokemon/versions/generation-vii/icons/3.png",
+        "artwork": "pokemon/other/official-artwork/3.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/3.png",
+        "showdown": "pokemon/other/showdown/3.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/3.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/3.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/3.png"
+      }
+    },
+    {
+      "id": 4,
+      "slug": "charmander",
+      "nameFr": "Salamèche",
+      "nameEn": "charmander",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/4.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/4.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/4.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/4.png",
+        "icon": "pokemon/versions/generation-vii/icons/4.png",
+        "artwork": "pokemon/other/official-artwork/4.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/4.png",
+        "showdown": "pokemon/other/showdown/4.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/4.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/4.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/4.png"
+      }
+    },
+    {
+      "id": 5,
+      "slug": "charmeleon",
+      "nameFr": "Reptincel",
+      "nameEn": "charmeleon",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/5.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/5.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/5.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/5.png",
+        "icon": "pokemon/versions/generation-vii/icons/5.png",
+        "artwork": "pokemon/other/official-artwork/5.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/5.png",
+        "showdown": "pokemon/other/showdown/5.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/5.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/5.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/5.png"
+      }
+    },
+    {
+      "id": 6,
+      "slug": "charizard",
+      "nameFr": "Dracaufeu",
+      "nameEn": "charizard",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/6.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/6.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/6.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/6.png",
+        "icon": "pokemon/versions/generation-vii/icons/6.png",
+        "artwork": "pokemon/other/official-artwork/6.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/6.png",
+        "showdown": "pokemon/other/showdown/6.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/6.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/6.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/6.png"
+      }
+    },
+    {
+      "id": 7,
+      "slug": "squirtle",
+      "nameFr": "Carapuce",
+      "nameEn": "squirtle",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/7.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/7.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/7.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/7.png",
+        "icon": "pokemon/versions/generation-vii/icons/7.png",
+        "artwork": "pokemon/other/official-artwork/7.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/7.png",
+        "showdown": "pokemon/other/showdown/7.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/7.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/7.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/7.png"
+      }
+    },
+    {
+      "id": 8,
+      "slug": "wartortle",
+      "nameFr": "Carabaffe",
+      "nameEn": "wartortle",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/8.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/8.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/8.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/8.png",
+        "icon": "pokemon/versions/generation-vii/icons/8.png",
+        "artwork": "pokemon/other/official-artwork/8.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/8.png",
+        "showdown": "pokemon/other/showdown/8.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/8.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/8.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/8.png"
+      }
+    },
+    {
+      "id": 9,
+      "slug": "blastoise",
+      "nameFr": "Tortank",
+      "nameEn": "blastoise",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/9.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/9.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/9.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/9.png",
+        "icon": "pokemon/versions/generation-vii/icons/9.png",
+        "artwork": "pokemon/other/official-artwork/9.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/9.png",
+        "showdown": "pokemon/other/showdown/9.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/9.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/9.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/9.png"
+      }
+    },
+    {
+      "id": 10,
+      "slug": "caterpie",
+      "nameFr": "Chenipan",
+      "nameEn": "caterpie",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/10.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/10.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/10.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/10.png",
+        "icon": "pokemon/versions/generation-vii/icons/10.png",
+        "artwork": "pokemon/other/official-artwork/10.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/10.png",
+        "showdown": "pokemon/other/showdown/10.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/10.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/10.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/10.png"
+      }
+    },
+    {
+      "id": 11,
+      "slug": "metapod",
+      "nameFr": "Chrysacier",
+      "nameEn": "metapod",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/11.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/11.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/11.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/11.png",
+        "icon": "pokemon/versions/generation-vii/icons/11.png",
+        "artwork": "pokemon/other/official-artwork/11.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/11.png",
+        "showdown": "pokemon/other/showdown/11.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/11.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/11.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/11.png"
+      }
+    },
+    {
+      "id": 12,
+      "slug": "butterfree",
+      "nameFr": "Papilusion",
+      "nameEn": "butterfree",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/12.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/12.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/12.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/12.png",
+        "icon": "pokemon/versions/generation-vii/icons/12.png",
+        "artwork": "pokemon/other/official-artwork/12.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/12.png",
+        "showdown": "pokemon/other/showdown/12.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/12.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/12.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/12.png"
+      }
+    },
+    {
+      "id": 13,
+      "slug": "weedle",
+      "nameFr": "Aspicot",
+      "nameEn": "weedle",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/13.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/13.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/13.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/13.png",
+        "icon": "pokemon/versions/generation-vii/icons/13.png",
+        "artwork": "pokemon/other/official-artwork/13.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/13.png",
+        "showdown": "pokemon/other/showdown/13.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/13.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/13.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/13.png"
+      }
+    },
+    {
+      "id": 14,
+      "slug": "kakuna",
+      "nameFr": "Coconfort",
+      "nameEn": "kakuna",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/14.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/14.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/14.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/14.png",
+        "icon": "pokemon/versions/generation-vii/icons/14.png",
+        "artwork": "pokemon/other/official-artwork/14.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/14.png",
+        "showdown": "pokemon/other/showdown/14.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/14.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/14.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/14.png"
+      }
+    },
+    {
+      "id": 15,
+      "slug": "beedrill",
+      "nameFr": "Dardargnan",
+      "nameEn": "beedrill",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/15.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/15.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/15.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/15.png",
+        "icon": "pokemon/versions/generation-vii/icons/15.png",
+        "artwork": "pokemon/other/official-artwork/15.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/15.png",
+        "showdown": "pokemon/other/showdown/15.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/15.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/15.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/15.png"
+      }
+    },
+    {
+      "id": 16,
+      "slug": "pidgey",
+      "nameFr": "Roucool",
+      "nameEn": "pidgey",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/16.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/16.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/16.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/16.png",
+        "icon": "pokemon/versions/generation-vii/icons/16.png",
+        "artwork": "pokemon/other/official-artwork/16.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/16.png",
+        "showdown": "pokemon/other/showdown/16.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/16.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/16.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/16.png"
+      }
+    },
+    {
+      "id": 17,
+      "slug": "pidgeotto",
+      "nameFr": "Roucoups",
+      "nameEn": "pidgeotto",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/17.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/17.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/17.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/17.png",
+        "icon": "pokemon/versions/generation-vii/icons/17.png",
+        "artwork": "pokemon/other/official-artwork/17.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/17.png",
+        "showdown": "pokemon/other/showdown/17.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/17.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/17.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/17.png"
+      }
+    },
+    {
+      "id": 18,
+      "slug": "pidgeot",
+      "nameFr": "Roucarnage",
+      "nameEn": "pidgeot",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/18.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/18.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/18.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/18.png",
+        "icon": "pokemon/versions/generation-vii/icons/18.png",
+        "artwork": "pokemon/other/official-artwork/18.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/18.png",
+        "showdown": "pokemon/other/showdown/18.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/18.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/18.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/18.png"
+      }
+    },
+    {
+      "id": 19,
+      "slug": "rattata",
+      "nameFr": "Rattata",
+      "nameEn": "rattata",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/19.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/19.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/19.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/19.png",
+        "icon": "pokemon/versions/generation-vii/icons/19.png",
+        "artwork": "pokemon/other/official-artwork/19.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/19.png",
+        "showdown": "pokemon/other/showdown/19.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/19.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/19.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/19.png"
+      }
+    },
+    {
+      "id": 20,
+      "slug": "raticate",
+      "nameFr": "Rattatac",
+      "nameEn": "raticate",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/20.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/20.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/20.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/20.png",
+        "icon": "pokemon/versions/generation-vii/icons/20.png",
+        "artwork": "pokemon/other/official-artwork/20.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/20.png",
+        "showdown": "pokemon/other/showdown/20.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/20.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/20.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/20.png"
+      }
+    },
+    {
+      "id": 21,
+      "slug": "spearow",
+      "nameFr": "Piafabec",
+      "nameEn": "spearow",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/21.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/21.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/21.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/21.png",
+        "icon": "pokemon/versions/generation-vii/icons/21.png",
+        "artwork": "pokemon/other/official-artwork/21.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/21.png",
+        "showdown": "pokemon/other/showdown/21.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/21.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/21.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/21.png"
+      }
+    },
+    {
+      "id": 22,
+      "slug": "fearow",
+      "nameFr": "Rapasdepic",
+      "nameEn": "fearow",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/22.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/22.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/22.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/22.png",
+        "icon": "pokemon/versions/generation-vii/icons/22.png",
+        "artwork": "pokemon/other/official-artwork/22.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/22.png",
+        "showdown": "pokemon/other/showdown/22.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/22.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/22.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/22.png"
+      }
+    },
+    {
+      "id": 23,
+      "slug": "ekans",
+      "nameFr": "Abo",
+      "nameEn": "ekans",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/23.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/23.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/23.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/23.png",
+        "icon": "pokemon/versions/generation-vii/icons/23.png",
+        "artwork": "pokemon/other/official-artwork/23.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/23.png",
+        "showdown": "pokemon/other/showdown/23.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/23.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/23.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/23.png"
+      }
+    },
+    {
+      "id": 24,
+      "slug": "arbok",
+      "nameFr": "Arbok",
+      "nameEn": "arbok",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/24.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/24.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/24.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/24.png",
+        "icon": "pokemon/versions/generation-vii/icons/24.png",
+        "artwork": "pokemon/other/official-artwork/24.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/24.png",
+        "showdown": "pokemon/other/showdown/24.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/24.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/24.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/24.png"
+      }
+    },
+    {
+      "id": 25,
+      "slug": "pikachu",
+      "nameFr": "Pikachu",
+      "nameEn": "pikachu",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/25.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/25.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/25.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/25.png",
+        "icon": "pokemon/versions/generation-vii/icons/25.png",
+        "artwork": "pokemon/other/official-artwork/25.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/25.png",
+        "showdown": "pokemon/other/showdown/25.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/25.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/25.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/25.png"
+      }
+    },
+    {
+      "id": 26,
+      "slug": "raichu",
+      "nameFr": "Raichu",
+      "nameEn": "raichu",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/26.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/26.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/26.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/26.png",
+        "icon": "pokemon/versions/generation-vii/icons/26.png",
+        "artwork": "pokemon/other/official-artwork/26.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/26.png",
+        "showdown": "pokemon/other/showdown/26.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/26.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/26.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/26.png"
+      }
+    },
+    {
+      "id": 27,
+      "slug": "sandshrew",
+      "nameFr": "Sabelette",
+      "nameEn": "sandshrew",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/27.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/27.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/27.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/27.png",
+        "icon": "pokemon/versions/generation-vii/icons/27.png",
+        "artwork": "pokemon/other/official-artwork/27.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/27.png",
+        "showdown": "pokemon/other/showdown/27.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/27.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/27.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/27.png"
+      }
+    },
+    {
+      "id": 28,
+      "slug": "sandslash",
+      "nameFr": "Sablaireau",
+      "nameEn": "sandslash",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/28.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/28.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/28.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/28.png",
+        "icon": "pokemon/versions/generation-vii/icons/28.png",
+        "artwork": "pokemon/other/official-artwork/28.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/28.png",
+        "showdown": "pokemon/other/showdown/28.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/28.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/28.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/28.png"
+      }
+    },
+    {
+      "id": 29,
+      "slug": "nidoran-f",
+      "nameFr": "Nidoran♀",
+      "nameEn": "nidoran-f",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/29.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/29.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/29.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/29.png",
+        "icon": "pokemon/versions/generation-vii/icons/29.png",
+        "artwork": "pokemon/other/official-artwork/29.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/29.png",
+        "showdown": "pokemon/other/showdown/29.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/29.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/29.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/29.png"
+      }
+    },
+    {
+      "id": 30,
+      "slug": "nidorina",
+      "nameFr": "Nidorina",
+      "nameEn": "nidorina",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/30.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/30.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/30.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/30.png",
+        "icon": "pokemon/versions/generation-vii/icons/30.png",
+        "artwork": "pokemon/other/official-artwork/30.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/30.png",
+        "showdown": "pokemon/other/showdown/30.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/30.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/30.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/30.png"
+      }
+    },
+    {
+      "id": 31,
+      "slug": "nidoqueen",
+      "nameFr": "Nidoqueen",
+      "nameEn": "nidoqueen",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/31.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/31.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/31.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/31.png",
+        "icon": "pokemon/versions/generation-vii/icons/31.png",
+        "artwork": "pokemon/other/official-artwork/31.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/31.png",
+        "showdown": "pokemon/other/showdown/31.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/31.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/31.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/31.png"
+      }
+    },
+    {
+      "id": 32,
+      "slug": "nidoran-m",
+      "nameFr": "Nidoran♂",
+      "nameEn": "nidoran-m",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/32.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/32.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/32.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/32.png",
+        "icon": "pokemon/versions/generation-vii/icons/32.png",
+        "artwork": "pokemon/other/official-artwork/32.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/32.png",
+        "showdown": "pokemon/other/showdown/32.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/32.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/32.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/32.png"
+      }
+    },
+    {
+      "id": 33,
+      "slug": "nidorino",
+      "nameFr": "Nidorino",
+      "nameEn": "nidorino",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/33.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/33.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/33.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/33.png",
+        "icon": "pokemon/versions/generation-vii/icons/33.png",
+        "artwork": "pokemon/other/official-artwork/33.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/33.png",
+        "showdown": "pokemon/other/showdown/33.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/33.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/33.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/33.png"
+      }
+    },
+    {
+      "id": 34,
+      "slug": "nidoking",
+      "nameFr": "Nidoking",
+      "nameEn": "nidoking",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/34.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/34.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/34.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/34.png",
+        "icon": "pokemon/versions/generation-vii/icons/34.png",
+        "artwork": "pokemon/other/official-artwork/34.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/34.png",
+        "showdown": "pokemon/other/showdown/34.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/34.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/34.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/34.png"
+      }
+    },
+    {
+      "id": 35,
+      "slug": "clefairy",
+      "nameFr": "Mélofée",
+      "nameEn": "clefairy",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/35.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/35.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/35.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/35.png",
+        "icon": "pokemon/versions/generation-vii/icons/35.png",
+        "artwork": "pokemon/other/official-artwork/35.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/35.png",
+        "showdown": "pokemon/other/showdown/35.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/35.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/35.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/35.png"
+      }
+    },
+    {
+      "id": 36,
+      "slug": "clefable",
+      "nameFr": "Mélodelfe",
+      "nameEn": "clefable",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/36.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/36.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/36.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/36.png",
+        "icon": "pokemon/versions/generation-vii/icons/36.png",
+        "artwork": "pokemon/other/official-artwork/36.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/36.png",
+        "showdown": "pokemon/other/showdown/36.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/36.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/36.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/36.png"
+      }
+    },
+    {
+      "id": 37,
+      "slug": "vulpix",
+      "nameFr": "Goupix",
+      "nameEn": "vulpix",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/37.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/37.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/37.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/37.png",
+        "icon": "pokemon/versions/generation-vii/icons/37.png",
+        "artwork": "pokemon/other/official-artwork/37.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/37.png",
+        "showdown": "pokemon/other/showdown/37.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/37.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/37.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/37.png"
+      }
+    },
+    {
+      "id": 38,
+      "slug": "ninetales",
+      "nameFr": "Feunard",
+      "nameEn": "ninetales",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/38.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/38.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/38.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/38.png",
+        "icon": "pokemon/versions/generation-vii/icons/38.png",
+        "artwork": "pokemon/other/official-artwork/38.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/38.png",
+        "showdown": "pokemon/other/showdown/38.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/38.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/38.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/38.png"
+      }
+    },
+    {
+      "id": 39,
+      "slug": "jigglypuff",
+      "nameFr": "Rondoudou",
+      "nameEn": "jigglypuff",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/39.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/39.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/39.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/39.png",
+        "icon": "pokemon/versions/generation-vii/icons/39.png",
+        "artwork": "pokemon/other/official-artwork/39.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/39.png",
+        "showdown": "pokemon/other/showdown/39.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/39.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/39.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/39.png"
+      }
+    },
+    {
+      "id": 40,
+      "slug": "wigglytuff",
+      "nameFr": "Grodoudou",
+      "nameEn": "wigglytuff",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/40.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/40.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/40.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/40.png",
+        "icon": "pokemon/versions/generation-vii/icons/40.png",
+        "artwork": "pokemon/other/official-artwork/40.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/40.png",
+        "showdown": "pokemon/other/showdown/40.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/40.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/40.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/40.png"
+      }
+    },
+    {
+      "id": 41,
+      "slug": "zubat",
+      "nameFr": "Nosferapti",
+      "nameEn": "zubat",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/41.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/41.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/41.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/41.png",
+        "icon": "pokemon/versions/generation-vii/icons/41.png",
+        "artwork": "pokemon/other/official-artwork/41.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/41.png",
+        "showdown": "pokemon/other/showdown/41.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/41.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/41.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/41.png"
+      }
+    },
+    {
+      "id": 42,
+      "slug": "golbat",
+      "nameFr": "Nosferalto",
+      "nameEn": "golbat",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/42.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/42.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/42.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/42.png",
+        "icon": "pokemon/versions/generation-vii/icons/42.png",
+        "artwork": "pokemon/other/official-artwork/42.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/42.png",
+        "showdown": "pokemon/other/showdown/42.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/42.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/42.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/42.png"
+      }
+    },
+    {
+      "id": 43,
+      "slug": "oddish",
+      "nameFr": "Mystherbe",
+      "nameEn": "oddish",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/43.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/43.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/43.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/43.png",
+        "icon": "pokemon/versions/generation-vii/icons/43.png",
+        "artwork": "pokemon/other/official-artwork/43.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/43.png",
+        "showdown": "pokemon/other/showdown/43.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/43.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/43.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/43.png"
+      }
+    },
+    {
+      "id": 44,
+      "slug": "gloom",
+      "nameFr": "Ortide",
+      "nameEn": "gloom",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/44.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/44.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/44.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/44.png",
+        "icon": "pokemon/versions/generation-vii/icons/44.png",
+        "artwork": "pokemon/other/official-artwork/44.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/44.png",
+        "showdown": "pokemon/other/showdown/44.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/44.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/44.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/44.png"
+      }
+    },
+    {
+      "id": 45,
+      "slug": "vileplume",
+      "nameFr": "Rafflesia",
+      "nameEn": "vileplume",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/45.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/45.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/45.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/45.png",
+        "icon": "pokemon/versions/generation-vii/icons/45.png",
+        "artwork": "pokemon/other/official-artwork/45.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/45.png",
+        "showdown": "pokemon/other/showdown/45.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/45.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/45.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/45.png"
+      }
+    },
+    {
+      "id": 46,
+      "slug": "paras",
+      "nameFr": "Paras",
+      "nameEn": "paras",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/46.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/46.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/46.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/46.png",
+        "icon": "pokemon/versions/generation-vii/icons/46.png",
+        "artwork": "pokemon/other/official-artwork/46.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/46.png",
+        "showdown": "pokemon/other/showdown/46.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/46.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/46.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/46.png"
+      }
+    },
+    {
+      "id": 47,
+      "slug": "parasect",
+      "nameFr": "Parasect",
+      "nameEn": "parasect",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/47.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/47.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/47.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/47.png",
+        "icon": "pokemon/versions/generation-vii/icons/47.png",
+        "artwork": "pokemon/other/official-artwork/47.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/47.png",
+        "showdown": "pokemon/other/showdown/47.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/47.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/47.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/47.png"
+      }
+    },
+    {
+      "id": 48,
+      "slug": "venonat",
+      "nameFr": "Mimitoss",
+      "nameEn": "venonat",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/48.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/48.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/48.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/48.png",
+        "icon": "pokemon/versions/generation-vii/icons/48.png",
+        "artwork": "pokemon/other/official-artwork/48.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/48.png",
+        "showdown": "pokemon/other/showdown/48.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/48.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/48.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/48.png"
+      }
+    },
+    {
+      "id": 49,
+      "slug": "venomoth",
+      "nameFr": "Aéromite",
+      "nameEn": "venomoth",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/49.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/49.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/49.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/49.png",
+        "icon": "pokemon/versions/generation-vii/icons/49.png",
+        "artwork": "pokemon/other/official-artwork/49.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/49.png",
+        "showdown": "pokemon/other/showdown/49.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/49.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/49.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/49.png"
+      }
+    },
+    {
+      "id": 50,
+      "slug": "diglett",
+      "nameFr": "Taupiqueur",
+      "nameEn": "diglett",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/50.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/50.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/50.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/50.png",
+        "icon": "pokemon/versions/generation-vii/icons/50.png",
+        "artwork": "pokemon/other/official-artwork/50.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/50.png",
+        "showdown": "pokemon/other/showdown/50.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/50.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/50.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/50.png"
+      }
+    },
+    {
+      "id": 51,
+      "slug": "dugtrio",
+      "nameFr": "Triopikeur",
+      "nameEn": "dugtrio",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/51.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/51.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/51.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/51.png",
+        "icon": "pokemon/versions/generation-vii/icons/51.png",
+        "artwork": "pokemon/other/official-artwork/51.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/51.png",
+        "showdown": "pokemon/other/showdown/51.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/51.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/51.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/51.png"
+      }
+    },
+    {
+      "id": 52,
+      "slug": "meowth",
+      "nameFr": "Miaouss",
+      "nameEn": "meowth",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/52.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/52.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/52.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/52.png",
+        "icon": "pokemon/versions/generation-vii/icons/52.png",
+        "artwork": "pokemon/other/official-artwork/52.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/52.png",
+        "showdown": "pokemon/other/showdown/52.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/52.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/52.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/52.png"
+      }
+    },
+    {
+      "id": 53,
+      "slug": "persian",
+      "nameFr": "Persian",
+      "nameEn": "persian",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/53.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/53.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/53.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/53.png",
+        "icon": "pokemon/versions/generation-vii/icons/53.png",
+        "artwork": "pokemon/other/official-artwork/53.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/53.png",
+        "showdown": "pokemon/other/showdown/53.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/53.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/53.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/53.png"
+      }
+    },
+    {
+      "id": 54,
+      "slug": "psyduck",
+      "nameFr": "Psykokwak",
+      "nameEn": "psyduck",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/54.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/54.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/54.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/54.png",
+        "icon": "pokemon/versions/generation-vii/icons/54.png",
+        "artwork": "pokemon/other/official-artwork/54.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/54.png",
+        "showdown": "pokemon/other/showdown/54.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/54.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/54.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/54.png"
+      }
+    },
+    {
+      "id": 55,
+      "slug": "golduck",
+      "nameFr": "Akwakwak",
+      "nameEn": "golduck",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/55.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/55.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/55.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/55.png",
+        "icon": "pokemon/versions/generation-vii/icons/55.png",
+        "artwork": "pokemon/other/official-artwork/55.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/55.png",
+        "showdown": "pokemon/other/showdown/55.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/55.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/55.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/55.png"
+      }
+    },
+    {
+      "id": 56,
+      "slug": "mankey",
+      "nameFr": "Férosinge",
+      "nameEn": "mankey",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/56.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/56.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/56.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/56.png",
+        "icon": "pokemon/versions/generation-vii/icons/56.png",
+        "artwork": "pokemon/other/official-artwork/56.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/56.png",
+        "showdown": "pokemon/other/showdown/56.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/56.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/56.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/56.png"
+      }
+    },
+    {
+      "id": 57,
+      "slug": "primeape",
+      "nameFr": "Colossinge",
+      "nameEn": "primeape",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/57.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/57.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/57.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/57.png",
+        "icon": "pokemon/versions/generation-vii/icons/57.png",
+        "artwork": "pokemon/other/official-artwork/57.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/57.png",
+        "showdown": "pokemon/other/showdown/57.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/57.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/57.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/57.png"
+      }
+    },
+    {
+      "id": 58,
+      "slug": "growlithe",
+      "nameFr": "Caninos",
+      "nameEn": "growlithe",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/58.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/58.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/58.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/58.png",
+        "icon": "pokemon/versions/generation-vii/icons/58.png",
+        "artwork": "pokemon/other/official-artwork/58.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/58.png",
+        "showdown": "pokemon/other/showdown/58.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/58.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/58.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/58.png"
+      }
+    },
+    {
+      "id": 59,
+      "slug": "arcanine",
+      "nameFr": "Arcanin",
+      "nameEn": "arcanine",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/59.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/59.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/59.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/59.png",
+        "icon": "pokemon/versions/generation-vii/icons/59.png",
+        "artwork": "pokemon/other/official-artwork/59.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/59.png",
+        "showdown": "pokemon/other/showdown/59.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/59.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/59.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/59.png"
+      }
+    },
+    {
+      "id": 60,
+      "slug": "poliwag",
+      "nameFr": "Ptitard",
+      "nameEn": "poliwag",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/60.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/60.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/60.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/60.png",
+        "icon": "pokemon/versions/generation-vii/icons/60.png",
+        "artwork": "pokemon/other/official-artwork/60.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/60.png",
+        "showdown": "pokemon/other/showdown/60.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/60.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/60.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/60.png"
+      }
+    },
+    {
+      "id": 61,
+      "slug": "poliwhirl",
+      "nameFr": "Têtarte",
+      "nameEn": "poliwhirl",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/61.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/61.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/61.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/61.png",
+        "icon": "pokemon/versions/generation-vii/icons/61.png",
+        "artwork": "pokemon/other/official-artwork/61.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/61.png",
+        "showdown": "pokemon/other/showdown/61.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/61.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/61.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/61.png"
+      }
+    },
+    {
+      "id": 62,
+      "slug": "poliwrath",
+      "nameFr": "Tartard",
+      "nameEn": "poliwrath",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/62.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/62.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/62.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/62.png",
+        "icon": "pokemon/versions/generation-vii/icons/62.png",
+        "artwork": "pokemon/other/official-artwork/62.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/62.png",
+        "showdown": "pokemon/other/showdown/62.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/62.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/62.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/62.png"
+      }
+    },
+    {
+      "id": 63,
+      "slug": "abra",
+      "nameFr": "Abra",
+      "nameEn": "abra",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/63.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/63.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/63.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/63.png",
+        "icon": "pokemon/versions/generation-vii/icons/63.png",
+        "artwork": "pokemon/other/official-artwork/63.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/63.png",
+        "showdown": "pokemon/other/showdown/63.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/63.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/63.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/63.png"
+      }
+    },
+    {
+      "id": 64,
+      "slug": "kadabra",
+      "nameFr": "Kadabra",
+      "nameEn": "kadabra",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/64.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/64.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/64.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/64.png",
+        "icon": "pokemon/versions/generation-vii/icons/64.png",
+        "artwork": "pokemon/other/official-artwork/64.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/64.png",
+        "showdown": "pokemon/other/showdown/64.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/64.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/64.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/64.png"
+      }
+    },
+    {
+      "id": 65,
+      "slug": "alakazam",
+      "nameFr": "Alakazam",
+      "nameEn": "alakazam",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/65.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/65.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/65.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/65.png",
+        "icon": "pokemon/versions/generation-vii/icons/65.png",
+        "artwork": "pokemon/other/official-artwork/65.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/65.png",
+        "showdown": "pokemon/other/showdown/65.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/65.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/65.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/65.png"
+      }
+    },
+    {
+      "id": 66,
+      "slug": "machop",
+      "nameFr": "Machoc",
+      "nameEn": "machop",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/66.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/66.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/66.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/66.png",
+        "icon": "pokemon/versions/generation-vii/icons/66.png",
+        "artwork": "pokemon/other/official-artwork/66.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/66.png",
+        "showdown": "pokemon/other/showdown/66.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/66.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/66.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/66.png"
+      }
+    },
+    {
+      "id": 67,
+      "slug": "machoke",
+      "nameFr": "Machopeur",
+      "nameEn": "machoke",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/67.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/67.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/67.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/67.png",
+        "icon": "pokemon/versions/generation-vii/icons/67.png",
+        "artwork": "pokemon/other/official-artwork/67.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/67.png",
+        "showdown": "pokemon/other/showdown/67.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/67.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/67.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/67.png"
+      }
+    },
+    {
+      "id": 68,
+      "slug": "machamp",
+      "nameFr": "Mackogneur",
+      "nameEn": "machamp",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/68.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/68.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/68.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/68.png",
+        "icon": "pokemon/versions/generation-vii/icons/68.png",
+        "artwork": "pokemon/other/official-artwork/68.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/68.png",
+        "showdown": "pokemon/other/showdown/68.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/68.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/68.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/68.png"
+      }
+    },
+    {
+      "id": 69,
+      "slug": "bellsprout",
+      "nameFr": "Chétiflor",
+      "nameEn": "bellsprout",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/69.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/69.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/69.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/69.png",
+        "icon": "pokemon/versions/generation-vii/icons/69.png",
+        "artwork": "pokemon/other/official-artwork/69.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/69.png",
+        "showdown": "pokemon/other/showdown/69.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/69.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/69.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/69.png"
+      }
+    },
+    {
+      "id": 70,
+      "slug": "weepinbell",
+      "nameFr": "Boustiflor",
+      "nameEn": "weepinbell",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/70.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/70.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/70.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/70.png",
+        "icon": "pokemon/versions/generation-vii/icons/70.png",
+        "artwork": "pokemon/other/official-artwork/70.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/70.png",
+        "showdown": "pokemon/other/showdown/70.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/70.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/70.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/70.png"
+      }
+    },
+    {
+      "id": 71,
+      "slug": "victreebel",
+      "nameFr": "Empiflor",
+      "nameEn": "victreebel",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/71.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/71.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/71.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/71.png",
+        "icon": "pokemon/versions/generation-vii/icons/71.png",
+        "artwork": "pokemon/other/official-artwork/71.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/71.png",
+        "showdown": "pokemon/other/showdown/71.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/71.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/71.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/71.png"
+      }
+    },
+    {
+      "id": 72,
+      "slug": "tentacool",
+      "nameFr": "Tentacool",
+      "nameEn": "tentacool",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/72.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/72.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/72.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/72.png",
+        "icon": "pokemon/versions/generation-vii/icons/72.png",
+        "artwork": "pokemon/other/official-artwork/72.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/72.png",
+        "showdown": "pokemon/other/showdown/72.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/72.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/72.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/72.png"
+      }
+    },
+    {
+      "id": 73,
+      "slug": "tentacruel",
+      "nameFr": "Tentacruel",
+      "nameEn": "tentacruel",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/73.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/73.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/73.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/73.png",
+        "icon": "pokemon/versions/generation-vii/icons/73.png",
+        "artwork": "pokemon/other/official-artwork/73.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/73.png",
+        "showdown": "pokemon/other/showdown/73.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/73.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/73.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/73.png"
+      }
+    },
+    {
+      "id": 74,
+      "slug": "geodude",
+      "nameFr": "Racaillou",
+      "nameEn": "geodude",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/74.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/74.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/74.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/74.png",
+        "icon": "pokemon/versions/generation-vii/icons/74.png",
+        "artwork": "pokemon/other/official-artwork/74.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/74.png",
+        "showdown": "pokemon/other/showdown/74.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/74.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/74.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/74.png"
+      }
+    },
+    {
+      "id": 75,
+      "slug": "graveler",
+      "nameFr": "Gravalanch",
+      "nameEn": "graveler",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/75.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/75.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/75.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/75.png",
+        "icon": "pokemon/versions/generation-vii/icons/75.png",
+        "artwork": "pokemon/other/official-artwork/75.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/75.png",
+        "showdown": "pokemon/other/showdown/75.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/75.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/75.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/75.png"
+      }
+    },
+    {
+      "id": 76,
+      "slug": "golem",
+      "nameFr": "Grolem",
+      "nameEn": "golem",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/76.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/76.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/76.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/76.png",
+        "icon": "pokemon/versions/generation-vii/icons/76.png",
+        "artwork": "pokemon/other/official-artwork/76.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/76.png",
+        "showdown": "pokemon/other/showdown/76.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/76.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/76.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/76.png"
+      }
+    },
+    {
+      "id": 77,
+      "slug": "ponyta",
+      "nameFr": "Ponyta",
+      "nameEn": "ponyta",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/77.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/77.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/77.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/77.png",
+        "icon": "pokemon/versions/generation-vii/icons/77.png",
+        "artwork": "pokemon/other/official-artwork/77.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/77.png",
+        "showdown": "pokemon/other/showdown/77.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/77.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/77.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/77.png"
+      }
+    },
+    {
+      "id": 78,
+      "slug": "rapidash",
+      "nameFr": "Galopa",
+      "nameEn": "rapidash",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/78.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/78.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/78.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/78.png",
+        "icon": "pokemon/versions/generation-vii/icons/78.png",
+        "artwork": "pokemon/other/official-artwork/78.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/78.png",
+        "showdown": "pokemon/other/showdown/78.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/78.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/78.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/78.png"
+      }
+    },
+    {
+      "id": 79,
+      "slug": "slowpoke",
+      "nameFr": "Ramoloss",
+      "nameEn": "slowpoke",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/79.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/79.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/79.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/79.png",
+        "icon": "pokemon/versions/generation-vii/icons/79.png",
+        "artwork": "pokemon/other/official-artwork/79.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/79.png",
+        "showdown": "pokemon/other/showdown/79.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/79.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/79.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/79.png"
+      }
+    },
+    {
+      "id": 80,
+      "slug": "slowbro",
+      "nameFr": "Flagadoss",
+      "nameEn": "slowbro",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/80.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/80.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/80.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/80.png",
+        "icon": "pokemon/versions/generation-vii/icons/80.png",
+        "artwork": "pokemon/other/official-artwork/80.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/80.png",
+        "showdown": "pokemon/other/showdown/80.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/80.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/80.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/80.png"
+      }
+    },
+    {
+      "id": 81,
+      "slug": "magnemite",
+      "nameFr": "Magnéti",
+      "nameEn": "magnemite",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/81.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/81.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/81.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/81.png",
+        "icon": "pokemon/versions/generation-vii/icons/81.png",
+        "artwork": "pokemon/other/official-artwork/81.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/81.png",
+        "showdown": "pokemon/other/showdown/81.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/81.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/81.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/81.png"
+      }
+    },
+    {
+      "id": 82,
+      "slug": "magneton",
+      "nameFr": "Magnéton",
+      "nameEn": "magneton",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/82.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/82.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/82.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/82.png",
+        "icon": "pokemon/versions/generation-vii/icons/82.png",
+        "artwork": "pokemon/other/official-artwork/82.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/82.png",
+        "showdown": "pokemon/other/showdown/82.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/82.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/82.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/82.png"
+      }
+    },
+    {
+      "id": 83,
+      "slug": "farfetchd",
+      "nameFr": "Canarticho",
+      "nameEn": "farfetchd",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/83.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/83.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/83.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/83.png",
+        "icon": "pokemon/versions/generation-vii/icons/83.png",
+        "artwork": "pokemon/other/official-artwork/83.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/83.png",
+        "showdown": "pokemon/other/showdown/83.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/83.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/83.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/83.png"
+      }
+    },
+    {
+      "id": 84,
+      "slug": "doduo",
+      "nameFr": "Doduo",
+      "nameEn": "doduo",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/84.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/84.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/84.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/84.png",
+        "icon": "pokemon/versions/generation-vii/icons/84.png",
+        "artwork": "pokemon/other/official-artwork/84.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/84.png",
+        "showdown": "pokemon/other/showdown/84.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/84.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/84.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/84.png"
+      }
+    },
+    {
+      "id": 85,
+      "slug": "dodrio",
+      "nameFr": "Dodrio",
+      "nameEn": "dodrio",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/85.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/85.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/85.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/85.png",
+        "icon": "pokemon/versions/generation-vii/icons/85.png",
+        "artwork": "pokemon/other/official-artwork/85.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/85.png",
+        "showdown": "pokemon/other/showdown/85.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/85.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/85.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/85.png"
+      }
+    },
+    {
+      "id": 86,
+      "slug": "seel",
+      "nameFr": "Otaria",
+      "nameEn": "seel",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/86.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/86.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/86.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/86.png",
+        "icon": "pokemon/versions/generation-vii/icons/86.png",
+        "artwork": "pokemon/other/official-artwork/86.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/86.png",
+        "showdown": "pokemon/other/showdown/86.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/86.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/86.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/86.png"
+      }
+    },
+    {
+      "id": 87,
+      "slug": "dewgong",
+      "nameFr": "Lamantine",
+      "nameEn": "dewgong",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/87.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/87.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/87.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/87.png",
+        "icon": "pokemon/versions/generation-vii/icons/87.png",
+        "artwork": "pokemon/other/official-artwork/87.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/87.png",
+        "showdown": "pokemon/other/showdown/87.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/87.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/87.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/87.png"
+      }
+    },
+    {
+      "id": 88,
+      "slug": "grimer",
+      "nameFr": "Tadmorv",
+      "nameEn": "grimer",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/88.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/88.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/88.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/88.png",
+        "icon": "pokemon/versions/generation-vii/icons/88.png",
+        "artwork": "pokemon/other/official-artwork/88.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/88.png",
+        "showdown": "pokemon/other/showdown/88.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/88.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/88.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/88.png"
+      }
+    },
+    {
+      "id": 89,
+      "slug": "muk",
+      "nameFr": "Grotadmorv",
+      "nameEn": "muk",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/89.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/89.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/89.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/89.png",
+        "icon": "pokemon/versions/generation-vii/icons/89.png",
+        "artwork": "pokemon/other/official-artwork/89.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/89.png",
+        "showdown": "pokemon/other/showdown/89.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/89.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/89.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/89.png"
+      }
+    },
+    {
+      "id": 90,
+      "slug": "shellder",
+      "nameFr": "Kokiyas",
+      "nameEn": "shellder",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/90.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/90.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/90.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/90.png",
+        "icon": "pokemon/versions/generation-vii/icons/90.png",
+        "artwork": "pokemon/other/official-artwork/90.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/90.png",
+        "showdown": "pokemon/other/showdown/90.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/90.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/90.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/90.png"
+      }
+    },
+    {
+      "id": 91,
+      "slug": "cloyster",
+      "nameFr": "Crustabri",
+      "nameEn": "cloyster",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/91.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/91.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/91.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/91.png",
+        "icon": "pokemon/versions/generation-vii/icons/91.png",
+        "artwork": "pokemon/other/official-artwork/91.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/91.png",
+        "showdown": "pokemon/other/showdown/91.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/91.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/91.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/91.png"
+      }
+    },
+    {
+      "id": 92,
+      "slug": "gastly",
+      "nameFr": "Fantominus",
+      "nameEn": "gastly",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/92.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/92.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/92.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/92.png",
+        "icon": "pokemon/versions/generation-vii/icons/92.png",
+        "artwork": "pokemon/other/official-artwork/92.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/92.png",
+        "showdown": "pokemon/other/showdown/92.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/92.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/92.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/92.png"
+      }
+    },
+    {
+      "id": 93,
+      "slug": "haunter",
+      "nameFr": "Spectrum",
+      "nameEn": "haunter",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/93.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/93.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/93.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/93.png",
+        "icon": "pokemon/versions/generation-vii/icons/93.png",
+        "artwork": "pokemon/other/official-artwork/93.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/93.png",
+        "showdown": "pokemon/other/showdown/93.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/93.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/93.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/93.png"
+      }
+    },
+    {
+      "id": 94,
+      "slug": "gengar",
+      "nameFr": "Ectoplasma",
+      "nameEn": "gengar",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/94.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/94.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/94.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/94.png",
+        "icon": "pokemon/versions/generation-vii/icons/94.png",
+        "artwork": "pokemon/other/official-artwork/94.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/94.png",
+        "showdown": "pokemon/other/showdown/94.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/94.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/94.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/94.png"
+      }
+    },
+    {
+      "id": 95,
+      "slug": "onix",
+      "nameFr": "Onix",
+      "nameEn": "onix",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/95.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/95.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/95.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/95.png",
+        "icon": "pokemon/versions/generation-vii/icons/95.png",
+        "artwork": "pokemon/other/official-artwork/95.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/95.png",
+        "showdown": "pokemon/other/showdown/95.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/95.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/95.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/95.png"
+      }
+    },
+    {
+      "id": 96,
+      "slug": "drowzee",
+      "nameFr": "Soporifik",
+      "nameEn": "drowzee",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/96.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/96.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/96.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/96.png",
+        "icon": "pokemon/versions/generation-vii/icons/96.png",
+        "artwork": "pokemon/other/official-artwork/96.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/96.png",
+        "showdown": "pokemon/other/showdown/96.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/96.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/96.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/96.png"
+      }
+    },
+    {
+      "id": 97,
+      "slug": "hypno",
+      "nameFr": "Hypnomade",
+      "nameEn": "hypno",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/97.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/97.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/97.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/97.png",
+        "icon": "pokemon/versions/generation-vii/icons/97.png",
+        "artwork": "pokemon/other/official-artwork/97.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/97.png",
+        "showdown": "pokemon/other/showdown/97.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/97.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/97.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/97.png"
+      }
+    },
+    {
+      "id": 98,
+      "slug": "krabby",
+      "nameFr": "Krabby",
+      "nameEn": "krabby",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/98.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/98.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/98.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/98.png",
+        "icon": "pokemon/versions/generation-vii/icons/98.png",
+        "artwork": "pokemon/other/official-artwork/98.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/98.png",
+        "showdown": "pokemon/other/showdown/98.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/98.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/98.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/98.png"
+      }
+    },
+    {
+      "id": 99,
+      "slug": "kingler",
+      "nameFr": "Krabboss",
+      "nameEn": "kingler",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/99.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/99.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/99.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/99.png",
+        "icon": "pokemon/versions/generation-vii/icons/99.png",
+        "artwork": "pokemon/other/official-artwork/99.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/99.png",
+        "showdown": "pokemon/other/showdown/99.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/99.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/99.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/99.png"
+      }
+    },
+    {
+      "id": 100,
+      "slug": "voltorb",
+      "nameFr": "Voltorbe",
+      "nameEn": "voltorb",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/100.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/100.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/100.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/100.png",
+        "icon": "pokemon/versions/generation-vii/icons/100.png",
+        "artwork": "pokemon/other/official-artwork/100.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/100.png",
+        "showdown": "pokemon/other/showdown/100.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/100.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/100.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/100.png"
+      }
+    },
+    {
+      "id": 101,
+      "slug": "electrode",
+      "nameFr": "Électrode",
+      "nameEn": "electrode",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/101.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/101.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/101.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/101.png",
+        "icon": "pokemon/versions/generation-vii/icons/101.png",
+        "artwork": "pokemon/other/official-artwork/101.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/101.png",
+        "showdown": "pokemon/other/showdown/101.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/101.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/101.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/101.png"
+      }
+    },
+    {
+      "id": 102,
+      "slug": "exeggcute",
+      "nameFr": "Noeunoeuf",
+      "nameEn": "exeggcute",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/102.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/102.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/102.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/102.png",
+        "icon": "pokemon/versions/generation-vii/icons/102.png",
+        "artwork": "pokemon/other/official-artwork/102.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/102.png",
+        "showdown": "pokemon/other/showdown/102.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/102.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/102.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/102.png"
+      }
+    },
+    {
+      "id": 103,
+      "slug": "exeggutor",
+      "nameFr": "Noadkoko",
+      "nameEn": "exeggutor",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/103.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/103.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/103.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/103.png",
+        "icon": "pokemon/versions/generation-vii/icons/103.png",
+        "artwork": "pokemon/other/official-artwork/103.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/103.png",
+        "showdown": "pokemon/other/showdown/103.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/103.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/103.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/103.png"
+      }
+    },
+    {
+      "id": 104,
+      "slug": "cubone",
+      "nameFr": "Osselait",
+      "nameEn": "cubone",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/104.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/104.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/104.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/104.png",
+        "icon": "pokemon/versions/generation-vii/icons/104.png",
+        "artwork": "pokemon/other/official-artwork/104.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/104.png",
+        "showdown": "pokemon/other/showdown/104.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/104.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/104.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/104.png"
+      }
+    },
+    {
+      "id": 105,
+      "slug": "marowak",
+      "nameFr": "Ossatueur",
+      "nameEn": "marowak",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/105.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/105.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/105.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/105.png",
+        "icon": "pokemon/versions/generation-vii/icons/105.png",
+        "artwork": "pokemon/other/official-artwork/105.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/105.png",
+        "showdown": "pokemon/other/showdown/105.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/105.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/105.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/105.png"
+      }
+    },
+    {
+      "id": 106,
+      "slug": "hitmonlee",
+      "nameFr": "Kicklee",
+      "nameEn": "hitmonlee",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/106.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/106.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/106.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/106.png",
+        "icon": "pokemon/versions/generation-vii/icons/106.png",
+        "artwork": "pokemon/other/official-artwork/106.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/106.png",
+        "showdown": "pokemon/other/showdown/106.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/106.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/106.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/106.png"
+      }
+    },
+    {
+      "id": 107,
+      "slug": "hitmonchan",
+      "nameFr": "Tygnon",
+      "nameEn": "hitmonchan",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/107.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/107.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/107.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/107.png",
+        "icon": "pokemon/versions/generation-vii/icons/107.png",
+        "artwork": "pokemon/other/official-artwork/107.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/107.png",
+        "showdown": "pokemon/other/showdown/107.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/107.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/107.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/107.png"
+      }
+    },
+    {
+      "id": 108,
+      "slug": "lickitung",
+      "nameFr": "Excelangue",
+      "nameEn": "lickitung",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/108.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/108.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/108.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/108.png",
+        "icon": "pokemon/versions/generation-vii/icons/108.png",
+        "artwork": "pokemon/other/official-artwork/108.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/108.png",
+        "showdown": "pokemon/other/showdown/108.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/108.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/108.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/108.png"
+      }
+    },
+    {
+      "id": 109,
+      "slug": "koffing",
+      "nameFr": "Smogo",
+      "nameEn": "koffing",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/109.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/109.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/109.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/109.png",
+        "icon": "pokemon/versions/generation-vii/icons/109.png",
+        "artwork": "pokemon/other/official-artwork/109.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/109.png",
+        "showdown": "pokemon/other/showdown/109.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/109.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/109.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/109.png"
+      }
+    },
+    {
+      "id": 110,
+      "slug": "weezing",
+      "nameFr": "Smogogo",
+      "nameEn": "weezing",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/110.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/110.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/110.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/110.png",
+        "icon": "pokemon/versions/generation-vii/icons/110.png",
+        "artwork": "pokemon/other/official-artwork/110.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/110.png",
+        "showdown": "pokemon/other/showdown/110.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/110.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/110.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/110.png"
+      }
+    },
+    {
+      "id": 111,
+      "slug": "rhyhorn",
+      "nameFr": "Rhinocorne",
+      "nameEn": "rhyhorn",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/111.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/111.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/111.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/111.png",
+        "icon": "pokemon/versions/generation-vii/icons/111.png",
+        "artwork": "pokemon/other/official-artwork/111.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/111.png",
+        "showdown": "pokemon/other/showdown/111.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/111.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/111.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/111.png"
+      }
+    },
+    {
+      "id": 112,
+      "slug": "rhydon",
+      "nameFr": "Rhinoféros",
+      "nameEn": "rhydon",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/112.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/112.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/112.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/112.png",
+        "icon": "pokemon/versions/generation-vii/icons/112.png",
+        "artwork": "pokemon/other/official-artwork/112.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/112.png",
+        "showdown": "pokemon/other/showdown/112.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/112.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/112.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/112.png"
+      }
+    },
+    {
+      "id": 113,
+      "slug": "chansey",
+      "nameFr": "Leveinard",
+      "nameEn": "chansey",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/113.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/113.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/113.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/113.png",
+        "icon": "pokemon/versions/generation-vii/icons/113.png",
+        "artwork": "pokemon/other/official-artwork/113.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/113.png",
+        "showdown": "pokemon/other/showdown/113.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/113.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/113.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/113.png"
+      }
+    },
+    {
+      "id": 114,
+      "slug": "tangela",
+      "nameFr": "Saquedeneu",
+      "nameEn": "tangela",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/114.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/114.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/114.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/114.png",
+        "icon": "pokemon/versions/generation-vii/icons/114.png",
+        "artwork": "pokemon/other/official-artwork/114.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/114.png",
+        "showdown": "pokemon/other/showdown/114.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/114.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/114.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/114.png"
+      }
+    },
+    {
+      "id": 115,
+      "slug": "kangaskhan",
+      "nameFr": "Kangourex",
+      "nameEn": "kangaskhan",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/115.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/115.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/115.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/115.png",
+        "icon": "pokemon/versions/generation-vii/icons/115.png",
+        "artwork": "pokemon/other/official-artwork/115.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/115.png",
+        "showdown": "pokemon/other/showdown/115.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/115.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/115.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/115.png"
+      }
+    },
+    {
+      "id": 116,
+      "slug": "horsea",
+      "nameFr": "Hypotrempe",
+      "nameEn": "horsea",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/116.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/116.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/116.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/116.png",
+        "icon": "pokemon/versions/generation-vii/icons/116.png",
+        "artwork": "pokemon/other/official-artwork/116.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/116.png",
+        "showdown": "pokemon/other/showdown/116.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/116.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/116.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/116.png"
+      }
+    },
+    {
+      "id": 117,
+      "slug": "seadra",
+      "nameFr": "Hypocéan",
+      "nameEn": "seadra",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/117.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/117.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/117.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/117.png",
+        "icon": "pokemon/versions/generation-vii/icons/117.png",
+        "artwork": "pokemon/other/official-artwork/117.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/117.png",
+        "showdown": "pokemon/other/showdown/117.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/117.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/117.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/117.png"
+      }
+    },
+    {
+      "id": 118,
+      "slug": "goldeen",
+      "nameFr": "Poissirène",
+      "nameEn": "goldeen",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/118.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/118.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/118.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/118.png",
+        "icon": "pokemon/versions/generation-vii/icons/118.png",
+        "artwork": "pokemon/other/official-artwork/118.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/118.png",
+        "showdown": "pokemon/other/showdown/118.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/118.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/118.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/118.png"
+      }
+    },
+    {
+      "id": 119,
+      "slug": "seaking",
+      "nameFr": "Poissoroy",
+      "nameEn": "seaking",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/119.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/119.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/119.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/119.png",
+        "icon": "pokemon/versions/generation-vii/icons/119.png",
+        "artwork": "pokemon/other/official-artwork/119.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/119.png",
+        "showdown": "pokemon/other/showdown/119.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/119.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/119.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/119.png"
+      }
+    },
+    {
+      "id": 120,
+      "slug": "staryu",
+      "nameFr": "Stari",
+      "nameEn": "staryu",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/120.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/120.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/120.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/120.png",
+        "icon": "pokemon/versions/generation-vii/icons/120.png",
+        "artwork": "pokemon/other/official-artwork/120.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/120.png",
+        "showdown": "pokemon/other/showdown/120.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/120.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/120.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/120.png"
+      }
+    },
+    {
+      "id": 121,
+      "slug": "starmie",
+      "nameFr": "Staross",
+      "nameEn": "starmie",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/121.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/121.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/121.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/121.png",
+        "icon": "pokemon/versions/generation-vii/icons/121.png",
+        "artwork": "pokemon/other/official-artwork/121.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/121.png",
+        "showdown": "pokemon/other/showdown/121.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/121.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/121.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/121.png"
+      }
+    },
+    {
+      "id": 122,
+      "slug": "mr-mime",
+      "nameFr": "M. Mime",
+      "nameEn": "mr-mime",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/122.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/122.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/122.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/122.png",
+        "icon": "pokemon/versions/generation-vii/icons/122.png",
+        "artwork": "pokemon/other/official-artwork/122.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/122.png",
+        "showdown": "pokemon/other/showdown/122.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/122.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/122.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/122.png"
+      }
+    },
+    {
+      "id": 123,
+      "slug": "scyther",
+      "nameFr": "Insécateur",
+      "nameEn": "scyther",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/123.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/123.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/123.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/123.png",
+        "icon": "pokemon/versions/generation-vii/icons/123.png",
+        "artwork": "pokemon/other/official-artwork/123.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/123.png",
+        "showdown": "pokemon/other/showdown/123.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/123.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/123.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/123.png"
+      }
+    },
+    {
+      "id": 124,
+      "slug": "jynx",
+      "nameFr": "Lippoutou",
+      "nameEn": "jynx",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/124.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/124.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/124.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/124.png",
+        "icon": "pokemon/versions/generation-vii/icons/124.png",
+        "artwork": "pokemon/other/official-artwork/124.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/124.png",
+        "showdown": "pokemon/other/showdown/124.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/124.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/124.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/124.png"
+      }
+    },
+    {
+      "id": 125,
+      "slug": "electabuzz",
+      "nameFr": "Élektek",
+      "nameEn": "electabuzz",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/125.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/125.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/125.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/125.png",
+        "icon": "pokemon/versions/generation-vii/icons/125.png",
+        "artwork": "pokemon/other/official-artwork/125.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/125.png",
+        "showdown": "pokemon/other/showdown/125.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/125.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/125.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/125.png"
+      }
+    },
+    {
+      "id": 126,
+      "slug": "magmar",
+      "nameFr": "Magmar",
+      "nameEn": "magmar",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/126.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/126.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/126.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/126.png",
+        "icon": "pokemon/versions/generation-vii/icons/126.png",
+        "artwork": "pokemon/other/official-artwork/126.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/126.png",
+        "showdown": "pokemon/other/showdown/126.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/126.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/126.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/126.png"
+      }
+    },
+    {
+      "id": 127,
+      "slug": "pinsir",
+      "nameFr": "Scarabrute",
+      "nameEn": "pinsir",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/127.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/127.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/127.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/127.png",
+        "icon": "pokemon/versions/generation-vii/icons/127.png",
+        "artwork": "pokemon/other/official-artwork/127.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/127.png",
+        "showdown": "pokemon/other/showdown/127.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/127.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/127.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/127.png"
+      }
+    },
+    {
+      "id": 128,
+      "slug": "tauros",
+      "nameFr": "Tauros",
+      "nameEn": "tauros",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/128.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/128.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/128.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/128.png",
+        "icon": "pokemon/versions/generation-vii/icons/128.png",
+        "artwork": "pokemon/other/official-artwork/128.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/128.png",
+        "showdown": "pokemon/other/showdown/128.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/128.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/128.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/128.png"
+      }
+    },
+    {
+      "id": 129,
+      "slug": "magikarp",
+      "nameFr": "Magicarpe",
+      "nameEn": "magikarp",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/129.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/129.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/129.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/129.png",
+        "icon": "pokemon/versions/generation-vii/icons/129.png",
+        "artwork": "pokemon/other/official-artwork/129.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/129.png",
+        "showdown": "pokemon/other/showdown/129.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/129.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/129.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/129.png"
+      }
+    },
+    {
+      "id": 130,
+      "slug": "gyarados",
+      "nameFr": "Léviator",
+      "nameEn": "gyarados",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/130.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/130.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/130.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/130.png",
+        "icon": "pokemon/versions/generation-vii/icons/130.png",
+        "artwork": "pokemon/other/official-artwork/130.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/130.png",
+        "showdown": "pokemon/other/showdown/130.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/130.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/130.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/130.png"
+      }
+    },
+    {
+      "id": 131,
+      "slug": "lapras",
+      "nameFr": "Lokhlass",
+      "nameEn": "lapras",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/131.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/131.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/131.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/131.png",
+        "icon": "pokemon/versions/generation-vii/icons/131.png",
+        "artwork": "pokemon/other/official-artwork/131.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/131.png",
+        "showdown": "pokemon/other/showdown/131.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/131.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/131.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/131.png"
+      }
+    },
+    {
+      "id": 132,
+      "slug": "ditto",
+      "nameFr": "Métamorph",
+      "nameEn": "ditto",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/132.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/132.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/132.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/132.png",
+        "icon": "pokemon/versions/generation-vii/icons/132.png",
+        "artwork": "pokemon/other/official-artwork/132.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/132.png",
+        "showdown": "pokemon/other/showdown/132.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/132.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/132.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/132.png"
+      }
+    },
+    {
+      "id": 133,
+      "slug": "eevee",
+      "nameFr": "Évoli",
+      "nameEn": "eevee",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/133.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/133.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/133.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/133.png",
+        "icon": "pokemon/versions/generation-vii/icons/133.png",
+        "artwork": "pokemon/other/official-artwork/133.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/133.png",
+        "showdown": "pokemon/other/showdown/133.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/133.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/133.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/133.png"
+      }
+    },
+    {
+      "id": 134,
+      "slug": "vaporeon",
+      "nameFr": "Aquali",
+      "nameEn": "vaporeon",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/134.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/134.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/134.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/134.png",
+        "icon": "pokemon/versions/generation-vii/icons/134.png",
+        "artwork": "pokemon/other/official-artwork/134.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/134.png",
+        "showdown": "pokemon/other/showdown/134.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/134.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/134.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/134.png"
+      }
+    },
+    {
+      "id": 135,
+      "slug": "jolteon",
+      "nameFr": "Voltali",
+      "nameEn": "jolteon",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/135.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/135.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/135.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/135.png",
+        "icon": "pokemon/versions/generation-vii/icons/135.png",
+        "artwork": "pokemon/other/official-artwork/135.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/135.png",
+        "showdown": "pokemon/other/showdown/135.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/135.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/135.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/135.png"
+      }
+    },
+    {
+      "id": 136,
+      "slug": "flareon",
+      "nameFr": "Pyroli",
+      "nameEn": "flareon",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/136.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/136.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/136.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/136.png",
+        "icon": "pokemon/versions/generation-vii/icons/136.png",
+        "artwork": "pokemon/other/official-artwork/136.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/136.png",
+        "showdown": "pokemon/other/showdown/136.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/136.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/136.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/136.png"
+      }
+    },
+    {
+      "id": 137,
+      "slug": "porygon",
+      "nameFr": "Porygon",
+      "nameEn": "porygon",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/137.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/137.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/137.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/137.png",
+        "icon": "pokemon/versions/generation-vii/icons/137.png",
+        "artwork": "pokemon/other/official-artwork/137.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/137.png",
+        "showdown": "pokemon/other/showdown/137.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/137.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/137.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/137.png"
+      }
+    },
+    {
+      "id": 138,
+      "slug": "omanyte",
+      "nameFr": "Amonita",
+      "nameEn": "omanyte",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/138.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/138.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/138.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/138.png",
+        "icon": "pokemon/versions/generation-vii/icons/138.png",
+        "artwork": "pokemon/other/official-artwork/138.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/138.png",
+        "showdown": "pokemon/other/showdown/138.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/138.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/138.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/138.png"
+      }
+    },
+    {
+      "id": 139,
+      "slug": "omastar",
+      "nameFr": "Amonistar",
+      "nameEn": "omastar",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/139.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/139.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/139.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/139.png",
+        "icon": "pokemon/versions/generation-vii/icons/139.png",
+        "artwork": "pokemon/other/official-artwork/139.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/139.png",
+        "showdown": "pokemon/other/showdown/139.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/139.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/139.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/139.png"
+      }
+    },
+    {
+      "id": 140,
+      "slug": "kabuto",
+      "nameFr": "Kabuto",
+      "nameEn": "kabuto",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/140.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/140.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/140.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/140.png",
+        "icon": "pokemon/versions/generation-vii/icons/140.png",
+        "artwork": "pokemon/other/official-artwork/140.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/140.png",
+        "showdown": "pokemon/other/showdown/140.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/140.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/140.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/140.png"
+      }
+    },
+    {
+      "id": 141,
+      "slug": "kabutops",
+      "nameFr": "Kabutops",
+      "nameEn": "kabutops",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/141.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/141.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/141.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/141.png",
+        "icon": "pokemon/versions/generation-vii/icons/141.png",
+        "artwork": "pokemon/other/official-artwork/141.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/141.png",
+        "showdown": "pokemon/other/showdown/141.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/141.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/141.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/141.png"
+      }
+    },
+    {
+      "id": 142,
+      "slug": "aerodactyl",
+      "nameFr": "Ptéra",
+      "nameEn": "aerodactyl",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/142.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/142.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/142.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/142.png",
+        "icon": "pokemon/versions/generation-vii/icons/142.png",
+        "artwork": "pokemon/other/official-artwork/142.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/142.png",
+        "showdown": "pokemon/other/showdown/142.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/142.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/142.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/142.png"
+      }
+    },
+    {
+      "id": 143,
+      "slug": "snorlax",
+      "nameFr": "Ronflex",
+      "nameEn": "snorlax",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/143.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/143.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/143.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/143.png",
+        "icon": "pokemon/versions/generation-vii/icons/143.png",
+        "artwork": "pokemon/other/official-artwork/143.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/143.png",
+        "showdown": "pokemon/other/showdown/143.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/143.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/143.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/143.png"
+      }
+    },
+    {
+      "id": 144,
+      "slug": "articuno",
+      "nameFr": "Artikodin",
+      "nameEn": "articuno",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/144.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/144.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/144.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/144.png",
+        "icon": "pokemon/versions/generation-vii/icons/144.png",
+        "artwork": "pokemon/other/official-artwork/144.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/144.png",
+        "showdown": "pokemon/other/showdown/144.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/144.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/144.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/144.png"
+      }
+    },
+    {
+      "id": 145,
+      "slug": "zapdos",
+      "nameFr": "Électhor",
+      "nameEn": "zapdos",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/145.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/145.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/145.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/145.png",
+        "icon": "pokemon/versions/generation-vii/icons/145.png",
+        "artwork": "pokemon/other/official-artwork/145.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/145.png",
+        "showdown": "pokemon/other/showdown/145.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/145.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/145.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/145.png"
+      }
+    },
+    {
+      "id": 146,
+      "slug": "moltres",
+      "nameFr": "Sulfura",
+      "nameEn": "moltres",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/146.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/146.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/146.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/146.png",
+        "icon": "pokemon/versions/generation-vii/icons/146.png",
+        "artwork": "pokemon/other/official-artwork/146.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/146.png",
+        "showdown": "pokemon/other/showdown/146.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/146.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/146.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/146.png"
+      }
+    },
+    {
+      "id": 147,
+      "slug": "dratini",
+      "nameFr": "Minidraco",
+      "nameEn": "dratini",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/147.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/147.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/147.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/147.png",
+        "icon": "pokemon/versions/generation-vii/icons/147.png",
+        "artwork": "pokemon/other/official-artwork/147.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/147.png",
+        "showdown": "pokemon/other/showdown/147.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/147.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/147.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/147.png"
+      }
+    },
+    {
+      "id": 148,
+      "slug": "dragonair",
+      "nameFr": "Draco",
+      "nameEn": "dragonair",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/148.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/148.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/148.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/148.png",
+        "icon": "pokemon/versions/generation-vii/icons/148.png",
+        "artwork": "pokemon/other/official-artwork/148.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/148.png",
+        "showdown": "pokemon/other/showdown/148.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/148.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/148.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/148.png"
+      }
+    },
+    {
+      "id": 149,
+      "slug": "dragonite",
+      "nameFr": "Dracolosse",
+      "nameEn": "dragonite",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/149.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/149.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/149.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/149.png",
+        "icon": "pokemon/versions/generation-vii/icons/149.png",
+        "artwork": "pokemon/other/official-artwork/149.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/149.png",
+        "showdown": "pokemon/other/showdown/149.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/149.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/149.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/149.png"
+      }
+    },
+    {
+      "id": 150,
+      "slug": "mewtwo",
+      "nameFr": "Mewtwo",
+      "nameEn": "mewtwo",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/150.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/150.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/150.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/150.png",
+        "icon": "pokemon/versions/generation-vii/icons/150.png",
+        "artwork": "pokemon/other/official-artwork/150.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/150.png",
+        "showdown": "pokemon/other/showdown/150.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/150.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/150.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/150.png"
+      }
+    },
+    {
+      "id": 151,
+      "slug": "mew",
+      "nameFr": "Mew",
+      "nameEn": "mew",
+      "gen": 1,
+      "sprites": {
+        "main": "pokemon/versions/generation-iii/firered-leafgreen/151.png",
+        "back": "pokemon/versions/generation-iii/firered-leafgreen/back/151.png",
+        "shiny": "pokemon/versions/generation-iii/firered-leafgreen/shiny/151.png",
+        "backShiny": "pokemon/versions/generation-iii/firered-leafgreen/back/shiny/151.png",
+        "icon": "pokemon/versions/generation-vii/icons/151.png",
+        "artwork": "pokemon/other/official-artwork/151.png",
+        "artworkShiny": "pokemon/other/official-artwork/shiny/151.png",
+        "showdown": "pokemon/other/showdown/151.gif",
+        "showdownShiny": "pokemon/other/showdown/shiny/151.gif",
+        "retroRedBlue": "pokemon/versions/generation-i/red-blue/151.png",
+        "retroYellow": "pokemon/versions/generation-i/yellow/151.png"
+      }
+    }
+  ]
+}

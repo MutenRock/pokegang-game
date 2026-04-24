@@ -1,0 +1,268 @@
+/* Pokémon module extracted from app.js
+ *
+ * This module bundles together functions that handle Pokémon creation,
+ * evolution, stat calculation, moves, level ups, and related helpers.
+ * Each function is exported to the global scope via `globalThis` so
+ * existing references in the game code continue to work.  To keep the
+ * module self‑contained, it aliases all of its dependencies from
+ * `globalThis` (e.g. `pick`, `BALLS`, `NATURES`, etc.), which are
+ * populated elsewhere in the application.
+ */
+(() => {
+  // Pull dependencies from the global namespace.  These references point to
+  // objects defined in other modules (or the original app.js) and will
+  // reflect any updates made at runtime.
+  const state          = globalThis.state;
+  const pick           = globalThis.pick;
+  const NATURE_KEYS    = globalThis.NATURE_KEYS;
+  const BALLS          = globalThis.BALLS;
+  const isBoostActive  = globalThis.isBoostActive;
+  const SPECIES_BY_EN  = globalThis.SPECIES_BY_EN;
+  const NATURES        = globalThis.NATURES;
+  const randInt        = globalThis.randInt;
+  const uid            = globalThis.uid;
+  const calculatePrice = globalThis.calculatePrice;
+  const speciesName    = globalThis.speciesName;
+  const EVO_BY_SPECIES = globalThis.EVO_BY_SPECIES;
+  const saveState      = globalThis.saveState;
+  const notify         = globalThis.notify;
+  const pokeSprite     = globalThis.pokeSprite;
+  const playSE         = globalThis.playSE;
+  const SFX            = globalThis.SFX;
+
+  /**
+   * Choisit une nature aléatoire parmi la liste `NATURE_KEYS`.
+   */
+  function rollNature() {
+    return pick(NATURE_KEYS);
+  }
+
+  /**
+   * Tire un potentiel 1–5 basé sur la distribution du type de Ball.
+   * Applique les boosts actifs comme l'encens chanceux.
+   */
+  function rollPotential(ballType) {
+    const dist = BALLS[ballType]?.potential || BALLS.pokeball.potential;
+    const r = Math.random() * 100;
+    let acc = 0;
+    let result = 1;
+    for (let i = 0; i < dist.length; i++) {
+      acc += dist[i];
+      if (r < acc) { result = i + 1; break; }
+    }
+    // Lucky Incense: +1 potential (capped at 5)
+    if (isBoostActive('incense') && result < 5) result++;
+    return result;
+  }
+
+  /**
+   * Détermine si un Pokémon est shiny en tenant compte des bonus.
+   */
+  function rollShiny() {
+    // Shiny Aura: x5 rate (1/40 instead of 1/200) ; Chroma Charm: ×2 permanent
+    let rate = isBoostActive('aura') ? 0.025 : 0.005;
+    if (state?.purchases?.chromaCharm) rate *= 2;
+    return Math.random() < rate;
+  }
+
+  /**
+   * Tire deux capacités aléatoires uniques depuis la liste du Pokémon.
+   */
+  function rollMoves(speciesEN) {
+    const sp = SPECIES_BY_EN[speciesEN];
+    if (!sp) return ['Charge', 'Griffe'];
+    const pool = [...sp.moves];
+    // Shuffle and pick 2 unique (or as many as available)
+    for (let i = pool.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [pool[i], pool[j]] = [pool[j], pool[i]];
+    }
+    const unique = [...new Set(pool)];
+    return unique.slice(0, 2);
+  }
+
+  /**
+   * Calcule les statistiques d'attaque/défense/vitesse d'un Pokémon en
+   * fonction de son espèce, de sa nature, de son potentiel et de son niveau.
+   */
+  function calculateStats(pokemon) {
+    const sp = SPECIES_BY_EN[pokemon.species_en];
+    if (!sp) return { atk: 10, def: 10, spd: 10 };
+    const nat = NATURES[pokemon.nature] || NATURES.hardy;
+    const potMult = 1 + pokemon.potential * 0.1;
+    const lvlMult = 1 + pokemon.level / 100;
+    return {
+      atk: Math.round(sp.baseAtk * potMult * nat.atk * lvlMult),
+      def: Math.round(sp.baseDef * potMult * nat.def * lvlMult),
+      spd: Math.round(sp.baseSpd * potMult * nat.spd * lvlMult),
+    };
+  }
+
+  /**
+   * Génère un nouveau Pokémon en fonction de l'espèce et de la zone.
+   * Initialise ses statistiques, son historique et met à jour les stats
+   * globales (par ex. le Pokémon le plus cher obtenu).
+   */
+  function makePokemon(speciesEN, zoneId, ballType = 'pokeball') {
+    const sp = SPECIES_BY_EN[speciesEN];
+    if (!sp) return null;
+    const nature    = rollNature();
+    const potential = rollPotential(ballType);
+    const shiny     = rollShiny();
+    const level     = randInt(3, 12);
+    const pokemon = {
+      id: `pk-${uid()}`,
+      species_fr: sp.fr,
+      species_en: sp.en,
+      dex: sp.dex,
+      level,
+      xp: 0,
+      nature,
+      potential,
+      shiny,
+      moves: rollMoves(speciesEN),
+      capturedIn: zoneId,
+      stats: {},
+      assignedTo: null,
+      cooldown: 0,
+      history: [],
+      favorite: false,
+    };
+    pokemon.stats = calculateStats(pokemon);
+    // Initial history entry
+    pokemon.history.push({ type: 'captured', ts: Date.now(), zone: zoneId, ball: ballType });
+    // Track most expensive obtained
+    const obtainedValue = calculatePrice(pokemon);
+    if (!state.stats.mostExpensiveObtained || obtainedValue > (state.stats.mostExpensiveObtained.price || 0)) {
+      state.stats.mostExpensiveObtained = { name: speciesName(pokemon.species_en), price: obtainedValue };
+    }
+    return pokemon;
+  }
+
+  /**
+   * Calcule la puissance globale d'un Pokémon en sommant ses stats et en
+   * appliquant un malus s'il a le mal du pays.
+   */
+  function getPokemonPower(pokemon) {
+    const s = pokemon.stats;
+    return Math.round((s.atk + s.def + s.spd) * (pokemon.homesick ? 0.75 : 1));
+  }
+
+  /**
+   * Vérifie si le Pokémon peut évoluer selon les règles d'évolution de son espèce.
+   */
+  function checkEvolution(pokemon) {
+    const evos = EVO_BY_SPECIES[pokemon.species_en];
+    if (!evos) return null;
+    for (const evo of evos) {
+      if (evo.req === 'item') continue; // item evolutions handled separately
+      if (typeof evo.req === 'number' && pokemon.level >= evo.req) {
+        return evo;
+      }
+    }
+    return null;
+  }
+
+  /**
+   * Fait évoluer le Pokémon vers une nouvelle espèce en mettant à jour ses
+   * propriétés et le Pokédex.  Retourne true si l'évolution a eu lieu.
+   */
+  function evolvePokemon(pokemon, targetEN) {
+    const sp = SPECIES_BY_EN[targetEN];
+    if (!sp) return false;
+    const oldName = speciesName(pokemon.species_en);
+    pokemon.species_en = sp.en;
+    pokemon.species_fr = sp.fr;
+    pokemon.dex = sp.dex;
+    pokemon.stats = calculateStats(pokemon);
+    pokemon.moves = rollMoves(sp.en);
+    if (pokemon.history) {
+      pokemon.history.push({ type: 'evolved', ts: Date.now(), from: oldName, to: speciesName(sp.en) });
+    }
+    // Update pokedex
+    if (!state.pokedex[sp.en]) {
+      state.pokedex[sp.en] = { seen: true, caught: true, shiny: pokemon.shiny, count: 1 };
+    } else {
+      state.pokedex[sp.en].caught = true;
+      state.pokedex[sp.en].count++;
+    }
+    showPokemonLevelPopup(pokemon, pokemon.level);
+    notify(`${oldName} ${state.lang === 'fr' ? 'évolue en' : 'evolved into'} ${speciesName(sp.en)} !`, 'gold');
+    SFX.play('evolve'); // Evolution fanfare
+    saveState();
+    return true;
+  }
+
+  /**
+   * Tente d'évoluer automatiquement un Pokémon en fonction de son niveau.
+   */
+  function tryAutoEvolution(pokemon) {
+    const evo = checkEvolution(pokemon);
+    if (evo) {
+      evolvePokemon(pokemon, evo.to);
+      return true;
+    }
+    return false;
+  }
+
+  /**
+   * Affiche une pop‑up de niveau lorsque le Pokémon gagne un niveau.
+   */
+  function showPokemonLevelPopup(pokemon, newLevel) {
+    const el = document.createElement('div');
+    el.style.cssText = 'position:fixed;bottom:80px;right:16px;background:var(--bg-card);border:1px solid var(--gold-dim);border-radius:var(--radius);padding:8px 12px;font-family:var(--font-pixel);font-size:9px;color:var(--gold);z-index:9999;display:flex;align-items:center;gap:8px;animation:fadeIn .2s ease;pointer-events:none';
+    el.innerHTML = `<img src="${pokeSprite(pokemon.species_en, pokemon.shiny)}" style="width:32px;height:32px"><span>${speciesName(pokemon.species_en)}<br>Lv.${newLevel} !</span>`;
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 2000);
+  }
+
+  /**
+   * Augmente l'XP du Pokémon et gère les passages de niveau, l'évolution
+   * automatique et les notifications associées.  Retourne true si un niveau
+   * a été gagné.
+   */
+  function levelUpPokemon(pokemon, xpGain) {
+    pokemon.xp += xpGain;
+    const xpNeeded = pokemon.level * 20;
+    let leveled = false;
+    while (pokemon.xp >= xpNeeded && pokemon.level < 100) {
+      pokemon.xp -= xpNeeded;
+      pokemon.level++;
+      leveled = true;
+      if (pokemon.history) {
+        pokemon.history.push({ type: 'levelup', ts: Date.now(), level: pokemon.level });
+      }
+    }
+    if (leveled) {
+      pokemon.stats = calculateStats(pokemon);
+      tryAutoEvolution(pokemon);
+      // Show popup only for boss team / active training (not passive background XP spam)
+      const isBossTeam   = state.gang.bossTeam.includes(pokemon.id);
+      const isInTraining = state.trainingRoom?.pokemon?.includes(pokemon.id);
+      if (isBossTeam || isInTraining) {
+        playSE('level_up', 0.5);
+        showPokemonLevelPopup(pokemon, pokemon.level);
+        SFX.play('levelUp');
+      }
+    }
+    return leveled;
+  }
+
+  // Attach all exported functions to the global scope.  This preserves
+  // backwards compatibility with code that still expects to find them on
+  // `window`.
+  Object.assign(globalThis, {
+    rollNature,
+    rollPotential,
+    rollShiny,
+    rollMoves,
+    calculateStats,
+    makePokemon,
+    getPokemonPower,
+    checkEvolution,
+    evolvePokemon,
+    tryAutoEvolution,
+    showPokemonLevelPopup,
+    levelUpPokemon,
+  });
+})();

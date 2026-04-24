@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "source": "pokeapi-sprites",
+    "generatedAt": "",
+    "baseUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/"
+  },
+  "items": {
+    "pokeBall": "items/poke-ball.png",
+    "greatBall": "items/great-ball.png",
+    "ultraBall": "items/ultra-ball.png",
+    "masterBall": "items/master-ball.png"
+  }
+}

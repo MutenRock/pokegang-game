@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "source": "pokemon-showdown-trainers",
+    "generatedAt": "2026-04-18T09:01:29.916Z",
+    "baseUrl": "https://play.pokemonshowdown.com/sprites/trainers/"
+  },
+  "trainers": {
+    "gymBosses": {
+      "brock": "brock.png",
+      "misty": "misty.png",
+      "ltSurge": "ltsurge-gen1.png",
+      "erika": "erika-gen1.png",
+      "koga": "koga.png",
+      "sabrina": "sabrina-gen1.png",
+      "blaine": "blaine.png",
+      "giovanniGym": "giovanni.png",
+      "blueChampion": "blue.png"
+    },
+    "eliteBosses": {
+      "lorelei": "lorelei-gen1.png",
+      "bruno": "bruno-gen1.png",
+      "agatha": "agatha.png",
+      "lance": "lance-gen1.png"
+    },
+    "specialBosses": {
+      "giovanni": "giovanni.png",
+      "rivalBlue": "blue.png",
+      "professorOak": "oak.png",
+      "red": "red-gen1.png",
+      "green": "green-gen1.png",
+      "championBlue": "blue.png"
+    },
+    "common": {
+      "youngsterGen1": "youngster-gen1.png",
+      "youngsterGen1RB": "youngster-gen1rb.png",
+      "lassGen1": "lass-gen1.png",
+      "jrtrainerGen1": "jrtrainer-gen1.png",
+      "jrtrainerFGen1": "jrtrainerf-gen1.png",
+      "beautyGen1": "beauty-gen1.png",
+      "bikerGen1": "biker-gen1.png",
+      "bugCatcherGen1": "bugcatcher-gen1.png",
+      "engineerGen1": "engineer-gen1.png",
+      "fishermanGen1": "fisherman-gen1.png",
+      "hikerGen1": "hiker-gen1.png",
+      "jugglerGen1": "juggler-gen1.png",
+      "psychicGen1": "psychic-gen1.png",
+      "rockerGen1": "rocker-gen1.png",
+      "sailorGen1": "sailor-gen1.png",
+      "scientistGen1": "scientist-gen1.png",
+      "superNerdGen1": "supernerd-gen1.png",
+      "swimmerGen1": "swimmer-gen1.png",
+      "tamerGen1": "tamer-gen1.png",
+      "gamblerGen1": "gambler-gen1.png",
+      "burglarGen1": "burglar-gen1.png",
+      "channelerGen1": "channeler-gen1.png",
+      "gentlemanGen1": "gentleman-gen1.png",
+      "pokemaniacGen1": "pokemaniac-gen1.png",
+      "cooltrainerGen1": "cooltrainer-gen1.png",
+      "cooltrainerFGen1": "cooltrainerf-gen1.png",
+      "aceTrainerGen1": "acetrainer-gen1.png"
+    },
+    "factions": {
+      "teamRocket": [
+        "rocketgrunt.png",
+        "rocketgruntf.png",
+        "rocket-gen1.png",
+        "rocket-gen1rb.png"
+      ],
+      "magma": [
+        "magma-grunt.png",
+        "magma-grunt-f.png",
+        "maxie.png"
+      ],
+      "aqua": [
+        "aqua-grunt.png",
+        "aqua-grunt-f.png",
+        "archie.png"
+      ],
+      "galactic": [
+        "galacticgrunt.png",
+        "galacticgruntf.png",
+        "cyrus.png"
+      ],
+      "plasma": [
+        "plasmagrunt.png",
+        "plasmagruntf.png",
+        "ghetsis.png"
+      ],
+      "flare": [
+        "flaregrunt.png",
+        "flaregruntf.png",
+        "lysandre.png"
+      ],
+      "skull": [
+        "teamskullgrunt.png",
+        "teamskullgruntf.png",
+        "guzma.png"
+      ],
+      "yell": [
+        "yellgruntm.png",
+        "yellgruntf.png",
+        "piers.png"
+      ],
+      "macroCosmos": [
+        "macrocosmosemployee.png",
+        "oleana.png",
+        "rose.png"
+      ]
+    }
+  }
+}

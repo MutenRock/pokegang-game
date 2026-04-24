@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "generatedAt": "2026-04-18T09:01:29.917Z",
+    "notes": "Mappe les zones vers pools communs, factions et boss."
+  },
+  "zones": {
+    "pallet-garden": {
+      "commons": [
+        "youngsterGen1",
+        "lassGen1",
+        "jrtrainerGen1"
+      ],
+      "factions": [],
+      "bosses": []
+    },
+    "route-1": {
+      "commons": [
+        "youngsterGen1",
+        "lassGen1",
+        "bugCatcherGen1"
+      ],
+      "factions": [],
+      "bosses": []
+    },
+    "viridian-forest": {
+      "commons": [
+        "bugCatcherGen1",
+        "youngsterGen1",
+        "jrtrainerGen1"
+      ],
+      "factions": [],
+      "bosses": []
+    },
+    "route-22": {
+      "commons": [
+        "youngsterGen1RB",
+        "jrtrainerGen1",
+        "jrtrainerFGen1"
+      ],
+      "factions": [],
+      "bosses": [
+        "rivalBlue"
+      ]
+    },
+    "argenta": {
+      "commons": [
+        "youngsterGen1",
+        "lassGen1",
+        "hikerGen1"
+      ],
+      "factions": [],
+      "bosses": [
+        "brock"
+      ]
+    },
+    "mt-moon": {
+      "commons": [
+        "hikerGen1",
+        "superNerdGen1",
+        "scientistGen1"
+      ],
+      "factions": [
+        "teamRocket"
+      ],
+      "bosses": []
+    },
+    "azuria": {
+      "commons": [
+        "jrtrainerFGen1",
+        "swimmerGen1",
+        "beautyGen1"
+      ],
+      "factions": [],
+      "bosses": [
+        "misty"
+      ]
+    },
+    "digletts-cave": {
+      "commons": [
+        "hikerGen1",
+        "engineerGen1"
+      ],
+      "factions": [],
+      "bosses": []
+    },
+    "ss-anne": {
+      "commons": [
+        "sailorGen1",
+        "gentlemanGen1",
+        "beautyGen1"
+      ],
+      "factions": [],
+      "bosses": []
+    },
+    "celadopole": {
+      "commons": [
+        "beautyGen1",
+        "gamblerGen1",
+        "jugglerGen1"
+      ],
+      "factions": [],
+      "bosses": [
+        "erika"
+      ]
+    },
+    "celadon-casino": {
+      "commons": [
+        "gamblerGen1",
+        "jugglerGen1",
+        "burglarGen1"
+      ],
+      "factions": [
+        "teamRocket",
+        "skull",
+        "flare"
+      ],
+      "bosses": [
+        "giovanni"
+      ]
+    },
+    "lavanville": {
+      "commons": [
+        "channelerGen1",
+        "psychicGen1"
+      ],
+      "factions": [],
+      "bosses": []
+    },
+    "pokemon-tower": {
+      "commons": [
+        "channelerGen1",
+        "psychicGen1"
+      ],
+      "factions": [
+        "teamRocket"
+      ],
+      "bosses": []
+    },
+    "safari-zone": {
+      "commons": [
+        "tamerGen1",
+        "fishermanGen1",
+        "jrtrainerGen1"
+      ],
+      "factions": [],
+      "bosses": []
+    },
+    "parmanie": {
+      "commons": [
+        "bikerGen1",
+        "jugglerGen1",
+        "tamerGen1"
+      ],
+      "factions": [],
+      "bosses": [
+        "koga"
+      ]
+    },
+    "safrania": {
+      "commons": [
+        "psychicGen1",
+        "scientistGen1",
+        "jugglerGen1"
+      ],
+      "factions": [
+        "teamRocket"
+      ],
+      "bosses": [
+        "sabrina"
+      ]
+    },
+    "silph-co": {
+      "commons": [
+        "scientistGen1",
+        "engineerGen1",
+        "superNerdGen1"
+      ],
+      "factions": [
+        "teamRocket",
+        "macroCosmos",
+        "galactic"
+      ],
+      "bosses": [
+        "giovanni"
+      ]
+    },
+    "power-plant": {
+      "commons": [
+        "engineerGen1",
+        "scientistGen1",
+        "rockerGen1"
+      ],
+      "factions": [
+        "magma",
+        "aqua"
+      ],
+      "bosses": []
+    },
+    "seafoam-islands": {
+      "commons": [
+        "swimmerGen1",
+        "fishermanGen1",
+        "sailorGen1"
+      ],
+      "factions": [
+        "aqua"
+      ],
+      "bosses": []
+    },
+    "cramoisile": {
+      "commons": [
+        "burglarGen1",
+        "scientistGen1",
+        "beautyGen1"
+      ],
+      "factions": [
+        "flare",
+        "magma"
+      ],
+      "bosses": [
+        "blaine"
+      ]
+    },
+    "rock-tunnel": {
+      "commons": [
+        "hikerGen1",
+        "pokemaniacGen1",
+        "jrtrainerGen1"
+      ],
+      "factions": [],
+      "bosses": []
+    },
+    "victory-road": {
+      "commons": [
+        "hikerGen1",
+        "cooltrainerGen1",
+        "cooltrainerFGen1"
+      ],
+      "factions": [],
+      "bosses": []
+    },
+    "plateau-indigo": {
+      "commons": [
+        "psychicGen1",
+        "scientistGen1",
+        "aceTrainerGen1"
+      ],
+      "factions": [],
+      "bosses": [
+        "lorelei",
+        "bruno",
+        "agatha",
+        "lance",
+        "blueChampion"
+      ]
+    },
+    "cerulean-cave": {
+      "commons": [
+        "psychicGen1",
+        "scientistGen1"
+      ],
+      "factions": [
+        "teamRocket",
+        "galactic",
+        "plasma"
+      ],
+      "bosses": [
+        "giovanni"
+      ]
+    },
+    "mt-silver": {
+      "commons": [
+        "hikerGen1",
+        "psychicGen1",
+        "aceTrainerGen1"
+      ],
+      "factions": [
+        "skull",
+        "yell"
+      ],
+      "bosses": [
+        "red"
+      ]
+    }
+  }
+}

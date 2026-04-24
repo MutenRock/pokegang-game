@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "generatedAt": "",
+    "notes": "Mappe les zones vers pools communs, factions et boss."
+  },
+  "zones": {
+    "route-1": {
+      "commons": [
+        "youngsterGen1"
+      ],
+      "factions": [],
+      "bosses": []
+    },
+    "argenta": {
+      "commons": [
+        "youngsterGen1"
+      ],
+      "factions": [],
+      "bosses": [
+        "brock"
+      ]
+    }
+  }
+}
