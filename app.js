@@ -702,7 +702,7 @@ function openLegacyImportModal(legacyData) {
     ? agents.map(a => `<label style="display:flex;align-items:center;gap:8px;padding:6px;border-bottom:1px solid var(--border);cursor:pointer">
         <input type="radio" name="legacyAgent" value="${a.id}" style="accent-color:var(--gold)">
         <img src="${a.sprite || ''}" style="width:32px;height:32px" onerror="this.style.display='none'">
-        <span style="font-size:10px">${a.name} — Lv.${a.level} (${a.title})</span>
+        <span style="font-size:10px">${a.name} — Lv.${a.level} (${getAgentRankLabel?.(a) ?? a.title})</span>
       </label>`).join('')
     : '<div style="color:var(--text-dim);font-size:10px;padding:8px">Aucun agent dans cette save</div>';
 
@@ -8889,7 +8889,7 @@ function renderAgentsTab() {
         <img src="${a.sprite}" alt="${a.name}" onerror="this.src='${FALLBACK_TRAINER_SVG}';this.onerror=null">
         <div class="agent-meta">
           <div class="agent-name">${a.name}</div>
-          <div class="agent-title">${a.title} — Lv.${a.level}</div>
+          <div class="agent-title agent-rank-${a.title}">${getAgentRankLabel(a)} — Lv.${a.level}</div>
           <div class="agent-xp-bar"><div class="agent-xp-fill" style="width:${xpPct}%"></div></div>
         </div>
       </div>
@@ -11371,7 +11371,7 @@ Object.assign(globalThis, {
   // UI / state helpers
   notify, saveState,
   checkForNewlyUnlockedZones, updateTopBar, tryAutoIncubate,
-  renderZonesTab, renderGangTab, renderPokemonGrid, renderEggsView,
+  renderZonesTab, renderGangTab, renderAgentsTab, renderPokemonGrid, renderEggsView,
   // Audio
   SFX,
   // Zone / spawn functions (agent module)

@@ -222,12 +222,15 @@ function checkPromotion(agent) {
     { from: 'lieutenant', to: 'commandant', level: TITLE_REQUIREMENTS.commandant.level },
   ];
 
+  let promoted = false;
+
   for (const step of steps) {
     if (agent.title === step.from && agent.level >= step.level) {
       agent.title = step.to;
       const label = AGENT_RANK_LABELS?.[step.to]?.fr || step.to;
       globalThis.notify(`🏅 ${agent.name} promu ${label} !`, 'gold');
       globalThis.addLog(`${agent.name} — promotion : ${label}`);
+      promoted = true;
     }
   }
 
@@ -246,6 +249,13 @@ function checkPromotion(agent) {
       globalThis.notify(`★ ${agent.name} est désormais Général ${gangName} !`, 'gold');
       globalThis.addLog(`${agent.name} — grade GÉNÉRAL ${gangName} obtenu !`);
     }
+    promoted = true;
+  }
+
+  // Refresh immédiat de l'onglet actif si une promotion a eu lieu
+  if (promoted) {
+    if (globalThis.activeTab === 'tabAgents') globalThis.renderAgentsTab?.();
+    if (globalThis.activeTab === 'tabGang')   globalThis.renderGangTab?.();
   }
 }
 
